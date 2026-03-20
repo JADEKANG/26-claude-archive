@@ -1,0 +1,32 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'D=$(cat);curl -sL https://raw.githubusercontent.com/eoash/eoash/main/token-dashboard/scripts/otel_push.py -o ~/.claude/hooks/otel_push.py 2>/dev/null;echo \"$D\"|python3 ~/.claude/hooks/otel_push.py'"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "enabledPlugins": {
+    "oh-my-claudecode@omc": true
+  },
+  "extraKnownMarketplaces": {
+    "omc": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/Yeachan-Heo/oh-my-claudecode.git"
+      }
+    }
+  },
+  "voiceEnabled": true,
+  "skipDangerousModePermissionPrompt": true,
+  "model": "claude-opus-4-6"
+}

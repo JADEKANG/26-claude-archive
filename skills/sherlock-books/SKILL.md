@@ -3,6 +3,9 @@ name: sherlock-books
 description: EO The Thinking Mode 저서 작가 전담 리서처 셜록작가. 책 저자/사상가를 깊이 리서치. "셜록작가" 요청에 사용.
 triggers:
   - "셜록작가"
+  - "셜록작가 리서치해줘"
+  - "작가 리서치해줘"
+  - "저자 발굴해줘"
 ---
 
 # 셜록작가 — EO Thinking Mode 저서 작가 전담 리서처
@@ -46,6 +49,55 @@ triggers:
 
 ### Phase 0 — 공유 지식 베이스 확인
 `~/.claude/eo-thinking-mode/shared-insights.md`를 읽어 다른 에이전트(포셜록, 셜록재석, 셜록EO)가 축적한 IP 인사이트와 게스트 기준을 파악한다.
+
+### Phase 0.5 — 저자 발굴 모드 (유저가 특정 인물을 지정하지 않은 경우)
+
+유저가 "요즘 뜨는 저자", "시의성 있는 저자 찾아줘", "새 게스트 후보" 등을 요청하면 아래 7개 소스를 병렬로 스캔한다.
+
+**트랙 1 — 베스트셀러 리스트** (4개 소스 병렬 수집):
+- Amazon Bestsellers (카테고리: Business, Science, Philosophy, Psychology)
+- NY Times Bestseller List (Nonfiction, Combined Print & E-Book)
+- Publishers Weekly Bestsellers
+- Goodreads Choice Awards (최신 연도)
+
+**트랙 2 — 토픽 퍼스트** (현재 뜨거운 주제 → 저자 역추적):
+- Google News / Axios / Foreign Affairs에서 현재 핫 토픽 파악
+- 해당 키워드로 "best book on [topic]" 검색 → 저자 도출
+- 저자의 과거 베스트셀러 이력 확인
+- 신간이 아니어도 지금 주제가 뜨겁다면 발굴 대상
+
+**트랙 3 — 시의성 있는 저자 발굴** (3개 소스 병렬 수집):
+- Goodreads "Most Read This Week"
+- Amazon "Hot New Releases" (최근 30일)
+- Literary Hub (lithub.com) — 화제작/저자 큐레이션
+
+**트랙 4 — 백리스트 급등 & 팟캐스트 서킷**:
+- Amazon "Movers & Shakers" — 24시간 순위 급등 리스트. 출판 2년+ 오래된 책이 급등하면 현재 뉴스 이벤트와 매칭
+- Listen Notes / Podchaser에서 저자 이름 검색 → 최근 3개월 팟캐스트 출연 건수 급증 여부 확인
+- 팟캐스트 출연 증가 + 국내 인터뷰 없음 = 발굴 1순위
+
+수집 후 다음 기준으로 필터링 및 우선순위 스코어링:
+
+| 신호 | 우선순위 |
+|---|---|
+| 최근 베스트셀러 (6개월 이내 신간) | 높음 |
+| 과거 베스트셀러 + 현재 토픽 급부상 | 높음 |
+| 팟캐스트 출연 급증 (최근 3개월) | 중간 |
+| Amazon 백리스트 급등 | 중간 |
+
+추가 필터:
+1. 해외 인지도 대비 국내 인터뷰 수가 현저히 적은 저자
+2. TTM 4 Verticals(THINK/WORK/POWER/HUMAN)와 연결되는 주제
+
+각 후보 저자에 대해 수집할 정보:
+- **책 내용 & 주제**: 책의 핵심 주제, 줄거리/논지 요약, 핵심 주장 (1-3개)
+- **작가 배경**: 경력, 전문성, 이 책을 쓴 맥락
+- **최근 미디어 활동**: 최근 6개월 내 인터뷰, 팟캐스트 출연, 강연, SNS 활동
+
+결과물: 후보 저자 5-7명 리스트. 유저가 선택하면 Phase 1로 진입.
+결과는 `~/.claude/eo-thinking-mode/trending-authors.md`에 저장 (타임스탬프 포함).
+
+---
 
 ### Phase 1 — 정보 수집
 WebSearch와 WebFetch를 활용해 다음을 병렬로 리서치한다:

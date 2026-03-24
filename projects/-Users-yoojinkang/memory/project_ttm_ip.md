@@ -6,16 +6,23 @@ type: project
 
 ## 완료된 작업 (2026-03-24)
 
-- **포셜록 희소성 기준 수정** — 한국 한정 → 글로벌 영어권 미디어 기준으로 명확화 (`skills/sherlock-academia/SKILL.md`)
+- **셜록작가 기존 4개 리서치 파일 섹션 구조 검토** — 9섹션 템플릿 대비 S4~S9 누락 확인
+- **셜록작가 Phase 0.5 신규 발굴 4인** — Griffiths, Muldoon, Choudary, Julia (`research/books/draft-candidates-2026-03-24.md`)
+  - 검증 대기 상태 (다음 세션에서 영상/인터뷰 확인 후 컨펌 여부 결정)
+- **희소성 기준 글로벌화** — 전 에이전트(books/academia/celeb/founder/jade) + shared-insights 일괄 수정
+  - 기준: 글로벌 영어권 미디어(Wired/NYT/Lex Fridman 등) 기준, 한국 노출은 별도 고려
+- **에피소드 Arc 구조 추가** — 전 셜록 스킬 5종 + research-template.md Section 7에 반영
+  - HOOK / WHO / CHANGE / HUMAN / HOW TO 5단계 구조
+
+### 이전 완료 (2026-03-24 오전)
+
+- **포셜록 희소성 기준 수정** — 한국 한정 → 글로벌 영어권 미디어 기준으로 명확화
 - **Jennifer Aaker 심화 리서치** 완료 (`research/academia/jennifer-aaker.md`) — HUMAN 버티컬 최우선 후보, 컨펌 대기
 - **Stuart Russell 심화 리서치** 완료 (`research/academia/stuart-russell.md`) — Theme 6 Architects 후보, 컨펌 대기
 - **Ken Goldberg 발굴 리서치** → 시의성 FAIL 판정, 보류 결정
-- **셜록 에이전트 4종 리서치 브리프 템플릿 9섹션 구조로 교체** (이전 세션)
-  - Section 5-9 신규: Diligence Flags, TTM Fit, Framing+Yama, YouTube Titles, Universal Q1-Q6
+- **셜록 에이전트 4종 리서치 브리프 템플릿 9섹션 구조로 교체**
 - **리서치 공통 템플릿 파일 생성** (`~/.claude/eo-thinking-mode/research-template.md`)
-  - 9섹션 + Sources 구조 확정
-  - Section 3 에이전트별 5가지 버전 정의 (포셜록/셜록작가/셜록EO/셜록재석/셜록제이드)
-- **Section 6 버티컬 전면 교체** — 4 Verticals(THINK/WORK/POWER/HUMAN) → Six Big Questions Q1-Q6 (전 셜록 스킬)
+- **Section 6 버티컬 전면 교체** — 4 Verticals → Six Big Questions Q1-Q6
 - **공통 템플릿 참조 링크 + Sources 섹션** — 전 셜록 스킬(5종)에 추가
 
 ### 이전 완료 (2026-03-23)
@@ -31,10 +38,14 @@ type: project
 
 ## 다음 세션에서 이어갈 것
 
-1. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + research-template.md 9섹션으로 리서치 파일 소급 반영
-2. **Theme 3 (When AI Dreams) 후보 발굴** — Ken Goldberg 보류 후 공백. Joon Sung Park (Stanford, 사회적 AI 에이전트) 등 탐색
-3. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
-4. **셜록작가 작업** — 미착수, 구체적 작업 내용 확인 필요
+1. **[최우선] 셜록작가 드래프트 4인 검증** — 영상/인터뷰 확인 후 guest-candidates.md 반영 여부 결정
+   - Griffiths: Sean Carroll 팟캐스트(2026.02.09) 시청 → 카메라 매력도 확인
+   - Muldoon: 영상 인터뷰 존재 여부 탐색 → 카메라 에너지 확인
+   - Choudary: 한국 인터뷰 현황 실제 확인 (현재 추정만)
+   - Julia: 영어 인터뷰 유창성/억양 확인 필수 (프랑스 출신)
+2. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 리서치 파일 9섹션 소급 반영
+3. **기존 셜록작가 4개 리서치 파일 9섹션 소급** — S4(What's New) / S5(Diligence) / S6(TTM Fit) / S7(Arc 포함) / S8(YouTube) / S9(Universal Q) 추가
+4. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
 
 ## 참고 경로
 

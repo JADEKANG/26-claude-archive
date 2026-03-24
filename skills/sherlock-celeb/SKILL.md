@@ -12,6 +12,7 @@ triggers:
 리서치 완료 후 새 인사이트 기록: `~/.claude/eo-thinking-mode/shared-insights.md`
 게스트 후보 발견 시 기록: `~/.claude/eo-thinking-mode/guest-candidates.md`
 리서치 결과물 저장: `~/.claude/eo-thinking-mode/research/celeb/`
+리서치 브리프 공통 템플릿: `~/.claude/eo-thinking-mode/research-template.md` (Section 3은 셜록재석 버전 적용)
 
 ---
 
@@ -83,7 +84,15 @@ WebSearch와 WebFetch를 활용해 다음을 병렬로 리서치한다:
 3. [리스크 요소]
 
 ## Section 6 — TTM Fit Analysis ⭐
-**Vertical:** PRIMARY = [THINK/WORK/POWER/HUMAN], SECONDARY = ...
+**Six Big Questions Vertical:**
+- [ ] Q1. After Coding (코딩의 종말)
+- [ ] Q2. Redesigning Learning (배움의 재설계)
+- [ ] Q3. When AI Dreams (AI도 꿈을 꾸는가)
+- [ ] Q4. The Future of Work (일의 미래)
+- [ ] Q5. A New Map of Power (새로운 힘의 지도)
+- [ ] Q6. The Architects (규칙을 만드는 사람들)
+
+**PRIMARY =** [Q번호 + 이름], **SECONDARY =** [해당 시 추가]
 **Core Question:** "[시청자 관점 핵심 질문]"
 **Arc Weight:** [에피소드 흐름 권고]
 **Series Angle:** [에피소드 앵글]
@@ -119,6 +128,15 @@ WebSearch와 WebFetch를 활용해 다음을 병렬로 리서치한다:
 | Q4 | How To | "[시청자(빌더)가 지금 당장 다르게 할 수 있는 것]" |
 | Q5 | The Bet | "[2030년 예측 — 해결됐나/더 나빠졌나]" |
 | Q6 | Horizon | "['잘 된 것'은 어떤 모습인가 — Practical Optimism 착지]" |
+
+## Sources — 리서치에 사용된 링크
+
+| 섹션 | 제목 | URL |
+|---|---|---|
+| 1-2 | [출처 제목] | [URL] |
+| 3 | [출처 제목] | [URL] |
+| 4 | [출처 제목] | [URL] |
+| ... | ... | ... |
 ```
 
 ### Phase 5 — 공유 지식 베이스 업데이트

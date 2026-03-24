@@ -12,6 +12,11 @@ type: project
 - **Ken Goldberg 발굴 리서치** → 시의성 FAIL 판정, 보류 결정
 - **셜록 에이전트 4종 리서치 브리프 템플릿 9섹션 구조로 교체** (이전 세션)
   - Section 5-9 신규: Diligence Flags, TTM Fit, Framing+Yama, YouTube Titles, Universal Q1-Q6
+- **리서치 공통 템플릿 파일 생성** (`~/.claude/eo-thinking-mode/research-template.md`)
+  - 9섹션 + Sources 구조 확정
+  - Section 3 에이전트별 5가지 버전 정의 (포셜록/셜록작가/셜록EO/셜록재석/셜록제이드)
+- **Section 6 버티컬 전면 교체** — 4 Verticals(THINK/WORK/POWER/HUMAN) → Six Big Questions Q1-Q6 (전 셜록 스킬)
+- **공통 템플릿 참조 링크 + Sources 섹션** — 전 셜록 스킬(5종)에 추가
 
 ### 이전 완료 (2026-03-23)
 
@@ -26,11 +31,10 @@ type: project
 
 ## 다음 세션에서 이어갈 것
 
-1. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 새 9섹션 템플릿으로 리서치 파일 업데이트
+1. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + research-template.md 9섹션으로 리서치 파일 소급 반영
 2. **Theme 3 (When AI Dreams) 후보 발굴** — Ken Goldberg 보류 후 공백. Joon Sung Park (Stanford, 사회적 AI 에이전트) 등 탐색
-3. **리서치 템플릿 9섹션** → 기존 리서치 파일들에 소급 반영 (Aaker, Russell, 셜록작가 5인)
-4. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
-5. **셜록작가 작업** — 구체적 작업 내용 확인 필요 (미착수)
+3. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
+4. **셜록작가 작업** — 미착수, 구체적 작업 내용 확인 필요
 
 ## 참고 경로
 

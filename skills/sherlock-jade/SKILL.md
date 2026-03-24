@@ -14,6 +14,7 @@ triggers:
 
 게스트 후보 발견 시 기록: `~/.claude/eo-thinking-mode/guest-candidates.md`
 리서치 결과물 저장: `~/.claude/eo-thinking-mode/research/jade/`
+리서치 브리프 공통 템플릿: `~/.claude/eo-thinking-mode/research-template.md` (Section 3은 셜록제이드 버전 적용)
 
 ---
 

@@ -6,10 +6,12 @@ type: project
 
 ## 완료된 작업 (2026-03-24)
 
-- **셜록 에이전트 4종 리서치 브리프 템플릿 9섹션 구조로 교체** (포셜록/셜록재석/셜록EO/셜록작가)
-  - IP 담당자 실무 브리프(벤지오/패리드) 구조 기반. Section 5-9 신규 (Diligence Flags, TTM Fit, Framing+Yama, YouTube Titles, Universal Q1-Q6)
-  - 포셜록 발굴 모드에 HOOK/한국희소성/리스크/발굴소스 필드 추가
-- Autopilot 고스트 상태 강제 클리어
+- **포셜록 희소성 기준 수정** — 한국 한정 → 글로벌 영어권 미디어 기준으로 명확화 (`skills/sherlock-academia/SKILL.md`)
+- **Jennifer Aaker 심화 리서치** 완료 (`research/academia/jennifer-aaker.md`) — HUMAN 버티컬 최우선 후보, 컨펌 대기
+- **Stuart Russell 심화 리서치** 완료 (`research/academia/stuart-russell.md`) — Theme 6 Architects 후보, 컨펌 대기
+- **Ken Goldberg 발굴 리서치** → 시의성 FAIL 판정, 보류 결정
+- **셜록 에이전트 4종 리서치 브리프 템플릿 9섹션 구조로 교체** (이전 세션)
+  - Section 5-9 신규: Diligence Flags, TTM Fit, Framing+Yama, YouTube Titles, Universal Q1-Q6
 
 ### 이전 완료 (2026-03-23)
 
@@ -24,20 +26,20 @@ type: project
 
 ## 다음 세션에서 이어갈 것
 
-1. **발굴 후보 10명 추리기** — `research/draft-candidates-2026-03-23.md` 에서 관심 후보 선택 → 딥다이브
-2. **셜록작가 작업** — 구체적 작업 내용 확인 필요 (미착수)
-3. **셜록제이드 첫 리서치** — "인도/르완다 AI Native 양성 환경" 탐구 + 게스트 후보 발굴
-4. **my-fetch-youtube 스킬 업데이트** — TTM 채점 기준 추가 (보류 중, 유저 판단 필요)
-5. **OMC ultrawork 고스트 훅 이슈** — settings.json persistent-mode 훅 확인 필요
+1. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 새 9섹션 템플릿으로 리서치 파일 업데이트
+2. **Theme 3 (When AI Dreams) 후보 발굴** — Ken Goldberg 보류 후 공백. Joon Sung Park (Stanford, 사회적 AI 에이전트) 등 탐색
+3. **리서치 템플릿 9섹션** → 기존 리서치 파일들에 소급 반영 (Aaker, Russell, 셜록작가 5인)
+4. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
+5. **셜록작가 작업** — 구체적 작업 내용 확인 필요 (미착수)
 
 ## 참고 경로
 
 - TTM 공유 지식: `~/.claude/eo-thinking-mode/shared-insights.md`
 - 게스트 후보: `~/.claude/eo-thinking-mode/guest-candidates.md`
 - 발굴 드래프트: `~/.claude/eo-thinking-mode/research/draft-candidates-2026-03-23.md`
+- 포셜록 심화 리서치: `~/.claude/eo-thinking-mode/research/academia/`
 - 영상 채점: `~/.claude/eo-thinking-mode/ttm-video-scores.md`
-- Drew Bent 분석: `~/.claude/eo-thinking-mode/research/drew-bent-analysis.md`
 - 포셜록 스킬: `~/.claude/skills/sherlock-academia/SKILL.md`
 - EO RSS: `https://www.youtube.com/feeds/videos.xml?channel_id=UClWTCPVi-AU9TeCN6FkGARg`
 
-**Why:** 4월 촬영 목표, 3월 말까지 주요 섭외 확정 필요. TTM IP 시의성 있는 저자/게스트 발굴이 핵심 과제.
+**Why:** 4월 촬영 목표, 3월 말까지 주요 섭외 확정 필요. HUMAN 버티컬(Aaker)과 Theme 6 Architects(Russell) 컨펌이 당장 과제.

@@ -6,13 +6,20 @@ type: project
 
 ## 완료된 작업 (2026-03-24)
 
+- **전체 guest-candidates.md AI 옵티미즘 검증 완료**
+  - 확정 유효: 7명 (Piech, Mollick, Bennett, Choudary, Valentine, Hougaard, Summerfield)
+  - 제외 확정: 4명 (Brian Christian, Kyle Chayka, AI 전문 저널리스트, Sherry Turkle) — 모두 AI optimism 충돌
+  - 보류 (이름 미확인 or 스탠스 미결): 7명
+  - HUMAN 버티컬 공백 확인 — Chayka/Turkle 제외로 AI optimism 방향 HUMAN 후보 0명
+- **셜록작가 TOP 4 심층조사 완료** — Choudary, Valentine, Summerfield, Hougaard
+  - 결과물: `research/books/셜록작가-심층조사-TOP4-2026-03-24.md` (Notion import용 md 파일 생성)
+- **셜록작가 Round 2 발굴 10인** — AI 옵티미즘 필터 적용, TOP 4 guest-candidates.md 반영
+- **sherlock-books SKILL.md 업데이트** — AI 옵티미즘 7번째 필수 기준으로 추가 (단독 FAIL = 제외)
 - **셜록작가 기존 4개 리서치 파일 섹션 구조 검토** — 9섹션 템플릿 대비 S4~S9 누락 확인
 - **셜록작가 Phase 0.5 신규 발굴 4인** — Griffiths, Muldoon, Choudary, Julia (`research/books/draft-candidates-2026-03-24.md`)
-  - 검증 대기 상태 (다음 세션에서 영상/인터뷰 확인 후 컨펌 여부 결정)
+  - Muldoon/Julia ❌ 제외, Griffiths/Choudary ⏸️ 보류 (Choudary 이후 심층조사에서 ✅ 확정)
 - **희소성 기준 글로벌화** — 전 에이전트(books/academia/celeb/founder/jade) + shared-insights 일괄 수정
-  - 기준: 글로벌 영어권 미디어(Wired/NYT/Lex Fridman 등) 기준, 한국 노출은 별도 고려
 - **에피소드 Arc 구조 추가** — 전 셜록 스킬 5종 + research-template.md Section 7에 반영
-  - HOOK / WHO / CHANGE / HUMAN / HOW TO 5단계 구조
 
 ### 이전 완료 (2026-03-24 오전)
 
@@ -38,14 +45,12 @@ type: project
 
 ## 다음 세션에서 이어갈 것
 
-1. **[최우선] 셜록작가 드래프트 4인 검증** — 영상/인터뷰 확인 후 guest-candidates.md 반영 여부 결정
-   - Griffiths: Sean Carroll 팟캐스트(2026.02.09) 시청 → 카메라 매력도 확인
-   - Muldoon: 영상 인터뷰 존재 여부 탐색 → 카메라 에너지 확인
-   - Choudary: 한국 인터뷰 현황 실제 확인 (현재 추정만)
-   - Julia: 영어 인터뷰 유창성/억양 확인 필수 (프랑스 출신)
+1. **[최우선] HUMAN 버티컬 AI optimism 후보 발굴** — Chayka/Turkle 제외로 공백. 4개 에이전트 전원 발굴 필요.
 2. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 리서치 파일 9섹션 소급 반영
-3. **기존 셜록작가 4개 리서치 파일 9섹션 소급** — S4(What's New) / S5(Diligence) / S6(TTM Fit) / S7(Arc 포함) / S8(YouTube) / S9(Universal Q) 추가
-4. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
+3. **Griffiths TED Talk 확인** — "AI ≠ 인간 사고" thesis가 optimism 프레이밍 가능한지 판별
+4. **포셜록 이름 미확인 5명 해결** — 램코 교수, Anthropic 철학자, 불확실성 연구자, HCI 연구자 이름 확인 + AI 옵티미즘 재판정
+5. **컨펌된 후보 9섹션 심화 리서치 진입** — Mollick, Bennett 우선
+6. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
 
 ## 참고 경로
 

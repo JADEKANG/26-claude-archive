@@ -1,21 +1,23 @@
 # 셜록작가 발굴 드래프트 — 2026-03-24
 
-> 상태: 후보 검증 대기 중. 다음 세션에서 각 인물 실제 미디어 활동/영상 확인 후 컨펌 여부 결정.
+> 상태: 검증 완료 (2026-03-24)
 > Phase 0.5 기반 발굴 (Amazon Bestsellers, NYT/PW/Kirkus, Goodreads, 팟캐스트 서킷)
 > 희소성 기준: 글로벌 영어권 미디어 기준 적용
 
 ---
 
-## 검증 체크리스트 (다음 세션)
+## 검증 결과 요약
 
-- [ ] Tom Griffiths — 영상 인터뷰 확인 (Sean Carroll 팟캐스트 등), 카메라 매력도
-- [ ] James Muldoon — 영상 인터뷰 확인, 카메라 매력도 (학자 스타일 우려)
-- [ ] Sangeet Paul Choudary — 한국 인터뷰 현황 실제 확인
-- [ ] Luc Julia — 영어 인터뷰 유창성/억양 확인 (프랑스 출신)
+| # | 인물 | 판정 | 사유 |
+|---|---|---|---|
+| 1 | Tom Griffiths | ⏸️ 보류 | 카메라 검증됨(TED Talk), 스탠스 정합성 프레이밍 여부 추가 검토 필요 |
+| 2 | James Muldoon | ❌ 제외 | 비판적 사회학자 포지션 — AI 옵티미즘 스탠스와 정면 충돌 |
+| 3 | Sangeet Paul Choudary | ⏸️ 보류 | AI 옵티미즘 최정합 + WORK 유일 후보, 스피커 영상 확인 후 컨펌 |
+| 4 | Luc Julia | ❌ 제외 | Siri 크레딧 논란 + AI 사실 오류 + "AI는 지능이 아니다" 스탠스 충돌 |
 
 ---
 
-## 1. Tom Griffiths
+## ⏸️ 보류 — 1. Tom Griffiths
 
 **Princeton AI Lab 디렉터 · *The Laws of Thought* (2026.02)**
 
@@ -26,25 +28,16 @@
 - **Intellectual Tension**: "AI가 인간처럼 생각한다"는 통념에 대한 AI Lab 디렉터의 반박
 - **Six Big Questions**: PRIMARY Q3 / SECONDARY Q2
 - **희소성**: 글로벌 서킷 초반 (Sean Carroll, MIT Sloan 팟캐스트 정도). Wired/NYT 노출 없음.
-- **검증 필요**: 카메라 앞 퍼포먼스 — Sean Carroll 팟캐스트(2026.02.09) 시청 확인
+
+### 검증 결과 (2026-03-24)
+- **카메라**: ✅ [TED Talk "3 ways to make better decisions"](https://www.ted.com/talks/tom_griffiths_3_ways_to_make_better_decisions_by_thinking_like_a_computer) (11:34) — 인지과학을 일상 비유로 전환하는 능력 확인
+- **팟캐스트 서킷**: Sean Carroll Mindscape #343 (2026.02.09), MIT Sloan, New Books Network, EPFL 강연 영상
+- **⚠️ 스탠스 주의**: thesis가 "AI ≠ 인간 사고"에 무게 → TTM AI 옵티미즘 베이스와 자연스럽게 맞지는 않음. 단, "인간 사고의 고유한 가치 → 어떻게 사고하는 인간이 될 것인가" 프레이밍이 가능하면 살릴 수 있음.
+- **다음 단계**: TED Talk 시청 → 본인의 자연스러운 방향이 "AI 한계론"인지 "인간 사고 예찬"인지 판별
 
 ---
 
-## 2. James Muldoon
-
-**Oxford Internet Institute 연구원 · *Love Machines* (2026.01)**
-
-- **소속**: Essex Business School Reader + Oxford Internet Institute 연구원
-- **신간**: *Love Machines: How Artificial Intelligence is Transforming Our Relationships* (Faber & Faber, 2026.01)
-- **핵심 thesis**: AI 여자친구 수요 남자친구의 10배. AI 파트너와 입양 준비, 사망 가족 AI 부활. 이것이 친밀감인가, 착각인가?
-- **Intellectual Tension**: AI 관계가 외로움을 해결하는가 vs 더 깊은 외로움을 만드는가
-- **Six Big Questions**: PRIMARY Q3 / HUMAN 버티컬 직격
-- **희소성**: Guardian, New Statesman 정도. 글로벌 대중 미디어 노출 초입.
-- **검증 필요**: 영상 인터뷰 존재 여부 확인. 학자 스타일이라 에너지 레벨 사전 확인 필요.
-
----
-
-## 3. Sangeet Paul Choudary
+## ⏸️ 보류 — 3. Sangeet Paul Choudary
 
 ***Platform Revolution* 저자 · *Reshuffle* (2025) · Thinkers50 Strategy Award 2025**
 
@@ -55,25 +48,40 @@
 - **Intellectual Tension**: "AI가 일자리를 빼앗는다" 프레임 자체를 뒤집는 주장
 - **Six Big Questions**: PRIMARY Q4 / WORK 버티컬 유일 후보
 - **희소성**: 비즈니스 니치에서만 알려짐. Wired/NYT 노출 없음.
-- **검증 필요**: 한국 인터뷰 현황 실제 확인 [현재 추정만 됨]
+
+### 검증 결과 (2026-03-24)
+- **한국 노출**: *플랫폼 레볼루션* 한국어 번역 출간 (2017, 교보문고) + IGM Korea CEO 대상 강연 이력. 단, 한국 미디어 인터뷰는 미발견. *Reshuffle*은 한국어 번역 없음.
+- **스탠스 정합**: ✅ **4인 중 TTM AI 옵티미즘에 가장 부합.** "AI가 일자리를 빼앗는다"를 뒤집고 "AI-native 조직은 이렇게 다르다"로 가는 구조 → "이 기술을 어떻게 잘 써서 프론티어가 될 것인가" 직결.
+- **카메라**: 글로벌 스피커 뷰로 다수 등록 (GSpeakers, APB, Aurum), G20/WEF/UN 키노트 이력 → 무대 경험 풍부 [추정]. 공개 영상은 미확인.
+- **다음 단계**: 스피커 뷰로 데모 영상 또는 BCG Henderson Institute 인터뷰 영상 확인 → 카메라 에너지 판별 후 컨펌
 
 ---
 
-## 4. Luc Julia
+## ❌ 제외 — 2. James Muldoon
 
-**Siri 공동 개발자 · Renault CSO · *The AI Illusion* (2026)**
+**Oxford Internet Institute 연구원 · *Love Machines* (2026.01)**
 
-- **소속**: Renault Group CSO (최고과학책임자)
-- **신간**: *The AI Illusion: Why Machines Aren't Creative* (Wiley, 2026)
-- **전작**: *There Is No Such Thing as Artificial Intelligence* (2020, 프랑스 베스트셀러)
-- **이력**: Apple Siri 공동 개발 (Adam Cheyer와 함께 핵심 특허 보유)
-- **핵심 thesis**: 생성형 AI는 창조하지 않는다 — 기존 데이터 재조합. "인공지능"이라는 용어 자체가 1956년 오해에서 시작.
-- **Intellectual Tension**: AI를 직접 만든 내부자의 "이건 지능이 아니다" 선언
-- **Six Big Questions**: PRIMARY Q3
-- **희소성**: 영어권 노출 매우 적음 (이전작 프랑스어 중심). 한국 완전 무명.
-- **검증 필요**: 영어 인터뷰 유창성/억양 확인 필수 (프랑스 출신). Wiley 영어판 인터뷰 영상 탐색.
+- **핵심 thesis**: AI 관계가 외로움을 해결하는가 vs 더 깊은 외로움을 만드는가
+- **제외 사유**:
+  1. **AI 옵티미즘 스탠스 충돌** — 비판적 사회학자 포지션. "외로움 경제" "규제 없는 기업" 등 경고/비판 프레임이 본인의 자연스러운 방향. TTM의 "이 기술을 어떻게 잘 써서 프론티어가 될 것인가" 스탠스와 맞지 않음.
+  2. **공개 영상 없음** — 카메라 에너지 검증 불가. How To Academy 리플레이만 유료(£16).
+- **참고**: 주제 자체(AI 친밀감/관계)는 Q3 HUMAN에 강력. 같은 주제를 다루되 옵티미즘 방향의 저자가 있다면 대체 가능.
+
+---
+
+## ❌ 제외 — 4. Luc Julia
+
+**Siri 공동 개발자(논란) · Renault CSO · *The AI Illusion* (2026)**
+
+- **핵심 thesis**: 생성형 AI는 창조하지 않는다 — "인공지능"이라는 용어 자체가 오해.
+- **제외 사유**:
+  1. **AI 옵티미즘 스탠스 정면 충돌** — "AI는 지능이 아니다" "AI는 창의적이지 않다"가 핵심 메시지. TTM 기본 스탠스와 양립 불가.
+  2. **Siri 크레딧 논란** (Monsieur Phi, 2025.08) — Apple 인수 후 합류, 최적화 기여. "공동 개발자" 타이틀 과장 논란. 에피소드 훅("Siri를 만든 사람이 AI는 지능이 아니라고 말한다")의 전제 자체가 흔들림.
+  3. **AI 관련 사실 오류 지적** — ChatGPT 오류율 인용 오류, 학습 데이터/파라미터 혼동 등.
+- **영어 유창성**: 파리-팔로알토 이중 거주, 영어 팟캐스트 다수 출연 → 유창성 자체는 문제 없었으나 위 사유로 무의미.
 
 ---
 
 _발굴: 셜록작가 / 2026-03-24_
-_다음 단계: 검증 후 guest-candidates.md 반영 여부 결정_
+_검증: 셜록작가 / 2026-03-24_
+_다음 단계: Griffiths TED Talk 확인 + Choudary 영상 확인 → 컨펌 여부 결정. Muldoon/Julia 제외 확정, Q3 HUMAN 대체 후보 탐색 필요._

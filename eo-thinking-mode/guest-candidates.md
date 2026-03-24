@@ -54,16 +54,38 @@ _교수/연구자 중 WORK 버티컬 후보_
 ## 저서 작가 (셜록작가)
 
 ### THINK
-_저서 작가 중 THINK 버티컬 후보_
+
+- **Ethan Mollick** — Wharton 교수 / *Co-Intelligence* 저자
+  - **버티컬**: THINK / WORK
+  - **추천 이유**: Co-Intelligence (NYT 베스트셀러, FT/이코노미스트 올해의 책). "Jagged Frontier" 개념 — AI를 팀메이트로 대하라. shared-insights의 "AI를 팀메이트로 생각하라" 프레이밍과 정확히 일치. One Useful Thing Substack 운영. 팟캐스트 출연 2026년에도 활발. 국내 인터뷰 현황 확인 필요.
+  - **발굴**: 셜록작가 / 2026-03-20
+
+- **Brian Christian** — 작가/연구자 / *The Alignment Problem*, *The Most Human Human* 저자
+  - **버티컬**: THINK (HUMAN 연결 가능)
+  - **추천 이유**: "가장 인간적인 인간상" 수상 경험(튜링 테스트). Algorithms to Live By, The Alignment Problem. "AI가 발전할수록 인간다움이란 무엇인가가 더 날카로운 질문이 된다"는 프레임. Oxford DPhil(AI alignment) 진행 중. NYT 선정 AI 필독서 5권 포함.
+  - **발굴**: 셜록작가 / 2026-03-20
+
+- **Max Bennett** — AI 창업자 / *A Brief History of Intelligence* 저자
+  - **버티컬**: THINK
+  - **추천 이유**: 뇌 진화의 5가지 혁신으로 AI 미래를 예측하는 독특한 프레임. Bluecore 공동창업자(CPO) + 신경과학 연구자 + 저자. Forbes 30 Under 30. 창업자이면서 깊은 사고를 가진 드문 조합.
+  - **발굴**: 셜록작가 / 2026-03-20
 
 ### WORK
 _저서 작가 중 WORK 버티컬 후보_
 
 ### POWER
-_저서 작가 중 POWER 버티컬 후보_
+
+- **Stephen Witt** — New Yorker 필자 / *The Thinking Machine* 저자
+  - **버티컬**: POWER
+  - **추천 이유**: The Thinking Machine (Jensen Huang/Nvidia) — FT 비즈니스 북 오브 더 이어 2025. 이전작 How Music Got Free(MP3 역사)로 기술이 산업 권력을 재편하는 방식을 다루는 저자. AI 인프라 권력 구조 앵글. POWER 스탠스 확정 후 재검토 권장.
+  - **발굴**: 셜록작가 / 2026-03-20
 
 ### HUMAN
-_저서 작가 중 HUMAN 버티컬 후보_
+
+- **Kyle Chayka** — New Yorker 스태프 라이터 / *Filterworld* 저자
+  - **버티컬**: HUMAN
+  - **추천 이유**: Filterworld: How Algorithms Flattened Culture. 알고리즘이 취향/정체성을 획일화시키는 방식. "당신이 좋아하는 것이 사실은 알고리즘이 좋아하게 만든 것"이라는 프레임. guest-candidates의 "AI 시대 Taste의 중요성" 후보와 정확히 매칭. HUMAN 버티컬 최강 후보. TTM AI 옵티미즘 스탠스에서 "Taste를 지킬 수 있는 사람이 Frontier" 앵글로 연결 가능.
+  - **발굴**: 셜록작가 / 2026-03-20
 
 ---
 
@@ -121,4 +143,4 @@ _AI/테크 빌더 중 HUMAN 버티컬 후보_
 
 ---
 
-_마지막 업데이트: 2026-03-20_
+_마지막 업데이트: 2026-03-20 (셜록작가 저자 발굴 5인 추가)_

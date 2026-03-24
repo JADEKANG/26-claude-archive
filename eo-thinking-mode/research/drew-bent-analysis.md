@@ -51,6 +51,26 @@ researched: 2026-03-20
 | TTM Vertical 적합성 | 18/20 | THINK 직결 |
 | 바이럴 포텐셜 | 14/20 | 제목 아쉬움, 1일차 |
 
+## 쇼츠 헤드라인 (확정)
+
+### 클립 1 — AI 시간 낭비 / R&D 프레임
+```
+AI wastes your time.
+Still holding back.
+```
+```
+Far from your limit.
+Elevate your ambition.
+```
+
+### 클립 2 — 소셜 스킬
+```
+Social skills.
+That's your AI edge.
+```
+
+---
+
 ## 최근 미디어 활동
 
 - 2026-03 EO Global 영상 출연

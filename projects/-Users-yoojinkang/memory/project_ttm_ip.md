@@ -4,6 +4,16 @@ description: EO 채널 The Thinking Mode IP 관련 작업 현황 및 다음 세�
 type: project
 ---
 
+## 완료된 작업 (2026-03-25)
+
+- **TTM 영상 편집 패턴 분석 시스템 구축**
+  - 공개 3편(Drew Bent/Rem Koning/Mihail Eric) 풀 스크립트 vs YouTube 최종 자막 비교 심층 분석
+  - 편집 7대 원칙 + 15개 가이드라인 도출 (How > What > Mindset 공식 등)
+  - Notion 페이지 정리: https://www.notion.so/eoeoeo/Video-Anylsis-for-Editing-Guide-32e74768ec3780ea8c28eb9eb3ba092e
+  - 편집 가이드 문서: `~/.claude/eo-thinking-mode/editing/ttm-editing-guide.md`
+  - **분석가 에이전트 스킬 생성** (`analyst-ttm-edit`) — 새 소스 넣으면 편집 방향성 자동 제안
+  - 에이전트 라인업 정리: 리서치=셜록(`sherlock-*`), 분석=분석가(`analyst-*`)
+
 ## 완료된 작업 (2026-03-24)
 
 - **전체 guest-candidates.md AI 옵티미즘 검증 완료**
@@ -47,10 +57,11 @@ type: project
 
 1. **[최우선] HUMAN 버티컬 AI optimism 후보 발굴** — Chayka/Turkle 제외로 공백. 4개 에이전트 전원 발굴 필요.
 2. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 리서치 파일 9섹션 소급 반영
-3. **Griffiths TED Talk 확인** — "AI ≠ 인간 사고" thesis가 optimism 프레이밍 가능한지 판별
-4. **포셜록 이름 미확인 5명 해결** — 램코 교수, Anthropic 철학자, 불확실성 연구자, HCI 연구자 이름 확인 + AI 옵티미즘 재판정
-5. **컨펌된 후보 9섹션 심화 리서치 진입** — Mollick, Bennett 우선
-6. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
+3. **Po-Shen Loh 풀 스크립트 확보 시 분석 추가** — 254k 최고 조회수 에피소드, 편집 패턴 분석 보강
+4. **Griffiths TED Talk 확인** — "AI ≠ 인간 사고" thesis가 optimism 프레이밍 가능한지 판별
+5. **포셜록 이름 미확인 5명 해결** — 램코 교수, Anthropic 철학자, 불확실성 연구자, HCI 연구자 이름 확인 + AI 옵티미즘 재판정
+6. **컨펌된 후보 9섹션 심화 리서치 진입** — Mollick, Bennett 우선
+7. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
 
 ## 참고 경로
 
@@ -59,6 +70,8 @@ type: project
 - 발굴 드래프트: `~/.claude/eo-thinking-mode/research/draft-candidates-2026-03-23.md`
 - 포셜록 심화 리서치: `~/.claude/eo-thinking-mode/research/academia/`
 - 영상 채점: `~/.claude/eo-thinking-mode/ttm-video-scores.md`
+- 편집 가이드: `~/.claude/eo-thinking-mode/editing/ttm-editing-guide.md`
+- 분석가 스킬: `~/.claude/skills/analyst-ttm-edit/SKILL.md`
 - 포셜록 스킬: `~/.claude/skills/sherlock-academia/SKILL.md`
 - EO RSS: `https://www.youtube.com/feeds/videos.xml?channel_id=UClWTCPVi-AU9TeCN6FkGARg`
 

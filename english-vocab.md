@@ -47,3 +47,41 @@
 | w/ / w/o | with / without | "w/ context" / "w/o issues" |
 | head out | 자리를 뜨다, 퇴근하다 | "I'll send it before I head out." |
 | send it over | (파일/내용을) 보내다, 공유하다 | "I'll send it over shortly." |
+
+## 2026-03-25
+
+| 표현 | 의미 | 예시 |
+|------|------|------|
+| well-rested | 숙면을 취한, 잘 잔 | "I feel well-rested after the weekend." |
+| quality sleep / sound sleep | 숙면 | "I finally got some quality sleep last night." |
+| sleep-deprived | 수면 부족의 | "I'm totally sleep-deprived this week." |
+| sleep deprivation | 수면 부족 (명사) | "Chronic sleep deprivation affects focus." |
+| lack of sleep | 수면 부족 (일상 표현) | "The lack of sleep is catching up to me." |
+| go ahead and (do) | 바로 ~하다, 진행하다 | "Should I go ahead and restart the server?" |
+| as shown in | ~에 표시된 대로 | "Please update it as shown in the doc." |
+| a little too | 좀 지나치게, 살짝 너무 | "I do it a little too often." |
+| I'm guilty of that, too | 저도 그러거든요 (공감 표현) | "I'm guilty of that, too." |
+| an interesting ride | 별의별 일이 다 있는 여정 (중립~부정 뉘앙스) | "Just be ready for an interesting ride." |
+| ups and downs | 좋은 일과 나쁜 일, 기복 | "Starting a company comes with ups and downs." |
+| highs and lows | 홍망성쇠; 좋은 때와 나쁜 때 (ups and downs의 격식체) | "Every career has its highs and lows." |
+| ebb and flow | 홍망성쇠를 반복하다; 있다가도 없다 | "The ebb and flow of the market is unpredictable." |
+| wax and wane | 성하고 쇠하다 (highs and lows의 문어체) | "Motivation tends to wax and wane." |
+| IPO (initial public offering) | 최초 상장 | "They're preparing for an IPO next year." |
+| go public | 상장하다 | "When are you going public?" |
+| go private | 비상장회사로 전환하다 | "The company decided to go private." |
+| get to (do) | 기회가 생겨서 ~하다 (행운/특권 뉘앙스) | "I get to have lunch with my family today." |
+| I don't have much knowledge about it | 잘 모르다 ("I'm not really know" 대신) | "I don't have much knowledge about that area." |
+| hardly | 거의 ~않다 (barely와 유사) | "I hardly exercise these days." |
+| beam | (사람/사물을) 순간이동 시키다 | "I wish I could beam myself to the office." |
+| this is you | 너 얘기잖아, 완전 너잖아 (공감/지적) | "This is you every Monday morning." |
+| on the set | 촬영 현장에 (on the site 아님) | "Everyone needs to be on the set by 8am." |
+| comes with | ~이 따라온다, ~을 수반한다 | "The job comes with a lot of responsibility." |
+| haven't considered ~ing | ~을 생각해본 적 없다 | "I haven't considered starting my own business." |
+| didn't make the cut | 기준을 통과 못하다, 탈락하다 | "Three candidates didn't make the cut." |
+| passed on | (후보를) 선택하지 않다, 넘기다 | "We passed on him due to timing." |
+| reasoning behind | ~의 논리/근거 | "What's the reasoning behind this decision?" |
+| thanks for the notes | 코멘트/메모 확인했어요 (confirm보다 자연스러움) | "Thanks for the notes on the doc!" |
+| feel free to share | 편하게 공유해줘요 (please lmk보다 부드럽게) | "Feel free to share any feedback anytime." |
+| running list | 계속 업데이트하는 누적 목록 | "Let's keep a running list of approved tracks." |
+| cross-check (by) | ~기준으로 교차 확인하다 | "Cross-check by title before finalizing." |
+| tracks | BGM/곡 (영어 제작 현장 용어, BGM 대신) | "Which tracks did we use in EP3?" |

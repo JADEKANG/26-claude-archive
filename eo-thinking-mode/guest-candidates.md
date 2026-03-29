@@ -74,19 +74,19 @@ _교수/연구자 중 WORK 버티컬 후보_
   - **제외 사유**: AI 옵티미즘 충돌. *The Alignment Problem* = AI risks/ethics 경고 프레이밍. 2025년 Bowdoin 강연: "technology running away with itself, serious ethical implications" — 자연스러운 방향이 AI cautionary. TTM 스탠스와 정면 충돌.
   - **발굴**: 셜록작가 / 2026-03-20 / **검증: 셜록작가 / 2026-03-24 → ❌ FAIL**
 
-- **Max Bennett** — AI 창업자 / *A Brief History of Intelligence* 저자 ✅ **컨펌**
+- **Max Bennett** — AI 창업자 / *A Brief History of Intelligence* 저자 ⏸️ **보류**
   - **버티컬**: THINK
   - **추천 이유**: 뇌 진화의 5가지 혁신으로 AI 미래를 예측하는 독특한 프레임. Bluecore 공동창업자(CPO) + 신경과학 연구자 + 저자. Forbes 30 Under 30. 창업자이면서 깊은 사고를 가진 드문 조합.
   - **AI 옵티미즘**: ✅ PASS — AI 창업자이자 신경과학 연구자. 뇌 진화 → AI 미래 예측 프레임 = AI 가능성 확장 방향. "인간 지능의 진화가 AI를 만들었고, AI는 그 다음 단계"라는 optimistic thesis.
-  - **발굴**: 셜록작가 / 2026-03-20 / **컨펌: 2026-03-24**
+  - **발굴**: 셜록작가 / 2026-03-20 / **보류 이동: 2026-03-25**
 
 ### WORK
 
-- **Sangeet Paul Choudary** — Platformation Labs 창업자 / *Reshuffle* (2025) / Thinkers50 Strategy Award 2025 ✅ **컨펌**
+- **Sangeet Paul Choudary** — Platformation Labs 창업자 / *Reshuffle* (2025) / Thinkers50 Strategy Award 2025 ⏸️ **보류**
   - **버티컬**: WORK
   - **추천 이유**: "AI의 진짜 힘은 자동화가 아니라 조정(coordination)." AI-adopting vs AI-native 조직 구조 차이를 프레임워크로 제시. "AI가 일자리를 빼앗는다" 프레임 자체를 뒤집는 thesis. WORK 버티컬 최우선 후보. AI 옵티미즘 최정합 (7/7 PASS).
   - **AI 옵티미즘**: ✅ PASS (7/7) — "Reshuffle, not replace" — AI가 일의 구조를 다시 쌓는다. 최강 AI optimism 부합.
-  - **발굴**: 셜록작가 / 2026-03-24 / **컨펌: 2026-03-24**
+  - **발굴**: 셜록작가 / 2026-03-24 / **보류 이동: 2026-03-25**
 
 - **Melissa Valentine** — Stanford 경영과학 교수 / *Flash Teams* (MIT Press, 2025) ✅ **컨펌**
   - **버티컬**: WORK
@@ -94,11 +94,17 @@ _교수/연구자 중 WORK 버티컬 후보_
   - **AI 옵티미즘**: ✅ PASS (7/7) — AI가 팀 조합을 최적화 → 더 나은 결과 가능. 옵티미즘 강함.
   - **발굴**: 셜록작가 / 2026-03-24 / **컨펌: 2026-03-24**
 
-- **Rasmus Hougaard** — Potential Project CEO / *More Human* (HBR Press, 2025)
+- **Chip Huyen** — AI 엔지니어/작가 / *AI Engineering* (O'Reilly, 2025) ✅ **컨펌**
+  - **버티컬**: WORK
+  - **추천 이유**: "AI 엔지니어링은 소프트웨어 엔지니어링의 다음 단계." LLM 기반 프로덕트 빌딩의 실전 프레임워크를 가장 명확하게 정리한 저자. NVIDIA, Snorkel AI 출신, Claypot AI 창업. 실무 빌더 시청자(Primary) 직접 타격. AI 옵티미즘 최정합.
+  - **AI 옵티미즘**: ✅ PASS — AI를 실전에서 어떻게 쓰는가를 가르치는 포지션. "AI 엔지니어링이 새로운 직군의 정의"라는 낙관적 전망.
+  - **발굴**: 유저 / 2026-03-25 / **컨펌: 2026-03-25**
+
+- **Rasmus Hougaard** — Potential Project CEO / *More Human* (HBR Press, 2025) ⏸️ **보류**
   - **버티컬**: WORK / HUMAN
   - **추천 이유**: "AI가 리더십을 비인간화하는 게 아니라 더 인간적으로 만든다." AI가 반복 업무를 가져가면 리더는 awareness, wisdom, compassion에 집중 가능. Thinkers50 리더십 Top 8. AI 옵티미즘 최정합 (7/7 PASS).
   - **AI 옵티미즘**: ✅ PASS (7/7) — "AI 덕분에 리더십이 더 인간적이 된다" = 전형적 AI optimism 착지.
-  - **발굴**: 셜록작가 / 2026-03-24
+  - **발굴**: 셜록작가 / 2026-03-24 / **보류 이동: 2026-03-25**
 
 ### POWER
 
@@ -181,12 +187,13 @@ _AI/테크 빌더 중 HUMAN 버티컬 후보_
 | Anthropic 내부 철학자 | 포셜록 | ⏸️ 이름 미확인 | 보류 |
 | 불확실성 프레임워크 연구자 | 포셜록 | ⏸️ 이름 미확인 | 보류 |
 | HCI 연구자 | 포셜록 | ⏸️ 이름 미확인 | 보류 |
-| Ethan Mollick | 셜록작가 | ✅ PASS | 유효 |
+| Ethan Mollick | 셜록작가 | ✅ PASS | 보류 |
 | Brian Christian | 셜록작가 | ❌ FAIL | **제외** |
-| Max Bennett | 셜록작가 | ✅ PASS | **최종 컨펌** |
-| Sangeet Paul Choudary | 셜록작가 | ✅ PASS (7/7) | **최종 컨펌** |
-| Melissa Valentine | 셜록작가 | ✅ PASS (7/7) | **최종 컨펌** |
-| Rasmus Hougaard | 셜록작가 | ✅ PASS (7/7) | **최종 컨펌** |
+| Max Bennett | 셜록작가 | ✅ PASS | ⏸️ 보류 |
+| Sangeet Paul Choudary | 셜록작가 | ✅ PASS (7/7) | ⏸️ 보류 |
+| Melissa Valentine | 셜록작가 | ✅ PASS (7/7) | **✅ 컨펌** |
+| Chip Huyen | 셜록작가 | ✅ PASS | **✅ 컨펌** |
+| Rasmus Hougaard | 셜록작가 | ✅ PASS (7/7) | ⏸️ 보류 |
 | Christopher Summerfield | 셜록작가 | ✅ PASS (7/7) | ⏸️ 보류 |
 | Stephen Witt | 셜록작가 | ⏸️ CONDITIONAL | 보류 |
 | Kyle Chayka | 셜록작가 | ❌ FAIL | **제외** |
@@ -195,8 +202,8 @@ _AI/테크 빌더 중 HUMAN 버티컬 후보_
 | Sherry Turkle | 셜록재석 | ❌ FAIL | **제외** |
 | Anonymous 아티스트 | 셜록재석 | ⏸️ 불명확 | 보류 |
 
-**최종 컨펌**: 4명 (Bennett, Choudary, Valentine, Hougaard) → 9섹션 심화 리서치 진입
-**보류**: Summerfield, Mollick, Griffiths, Piech + 이름 미확인 5명
+**최종 컨펌**: 2명 (Melissa Valentine, Chip Huyen)
+**보류**: Bennett, Choudary, Hougaard, Summerfield, Mollick, Witt, Piech + 이름 미확인 5명 → `보류-candidates.md` 참고
 **제외**: 4명 (Brian Christian, Kyle Chayka, AI 전문 저널리스트, Sherry Turkle)
 
 ---
@@ -209,4 +216,4 @@ _AI/테크 빌더 중 HUMAN 버티컬 후보_
 
 ---
 
-_마지막 업데이트: 2026-03-24 (최종 컨펌 4명 확정 — Bennett/Choudary/Valentine/Hougaard. Summerfield 보류. 제외 4명 확정.)_
+_마지막 업데이트: 2026-03-25 (컨펌 2명 — Valentine/Chip Huyen. Bennett/Choudary/Hougaard 보류 이동. 보류 관리 파일 분리 → `보류-candidates.md`)_

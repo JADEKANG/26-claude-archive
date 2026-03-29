@@ -4,6 +4,15 @@ description: EO 채널 The Thinking Mode IP 관련 작업 현황 및 다음 세�
 type: project
 ---
 
+## 완료된 작업 (2026-03-29)
+
+- **Bharat Chandar 인터뷰 스크립트 섹션 브레이크다운**
+  - 스크립트 전체 읽기 → 15개 섹션 + 타임스탬프 + 불릿 정리
+  - 노션 페이지 업로드: https://www.notion.so/eoeoeo/Interview-Flow-Section-Breakdown-33274768ec37808e980fd1c2bc2b2e4d
+- **TTM Script Summarizer 워크플로우 템플릿 생성**
+  - 경로: `~/.claude/eo-thinking-mode/ttm-script-summarizer.md`
+  - 사용법: 파일 경로 + 노션 URL 주고 "영상 구조 정리해줘" 하면 됨
+
 ## 완료된 작업 (2026-03-25)
 
 - **TTM 영상 편집 패턴 분석 시스템 구축**

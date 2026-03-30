@@ -178,36 +178,6 @@ _AI/테크 빌더 중 HUMAN 버티컬 후보_
 
 ---
 
-## 검증 결과 요약 (2026-03-24)
-
-| 인물 | 에이전트 | AI 옵티미즘 | 상태 |
-|---|---|---|---|
-| Chris Piech | 포셜록 | ✅ PASS | 유효 |
-| 램코 교수 외 2인 | 포셜록 | ⏸️ 이름 미확인 | 보류 |
-| Anthropic 내부 철학자 | 포셜록 | ⏸️ 이름 미확인 | 보류 |
-| 불확실성 프레임워크 연구자 | 포셜록 | ⏸️ 이름 미확인 | 보류 |
-| HCI 연구자 | 포셜록 | ⏸️ 이름 미확인 | 보류 |
-| Ethan Mollick | 셜록작가 | ✅ PASS | 보류 |
-| Brian Christian | 셜록작가 | ❌ FAIL | **제외** |
-| Max Bennett | 셜록작가 | ✅ PASS | ⏸️ 보류 |
-| Sangeet Paul Choudary | 셜록작가 | ✅ PASS (7/7) | ⏸️ 보류 |
-| Melissa Valentine | 셜록작가 | ✅ PASS (7/7) | **✅ 컨펌** |
-| Chip Huyen | 셜록작가 | ✅ PASS | **✅ 컨펌** |
-| Rasmus Hougaard | 셜록작가 | ✅ PASS (7/7) | ⏸️ 보류 |
-| Christopher Summerfield | 셜록작가 | ✅ PASS (7/7) | ⏸️ 보류 |
-| Stephen Witt | 셜록작가 | ⏸️ CONDITIONAL | 보류 |
-| Kyle Chayka | 셜록작가 | ❌ FAIL | **제외** |
-| AI 전문 저널리스트 | 셜록재석 | ❌ FAIL | **제외** |
-| 미래학자 | 셜록재석 | ⏸️ 이름 미확인 | 보류 |
-| Sherry Turkle | 셜록재석 | ❌ FAIL | **제외** |
-| Anonymous 아티스트 | 셜록재석 | ⏸️ 불명확 | 보류 |
-
-**최종 컨펌**: 2명 (Melissa Valentine, Chip Huyen)
-**보류**: Bennett, Choudary, Hougaard, Summerfield, Mollick, Witt, Piech + 이름 미확인 5명 → `보류-candidates.md` 참고
-**제외**: 4명 (Brian Christian, Kyle Chayka, AI 전문 저널리스트, Sherry Turkle)
-
----
-
 ## ⚠️ 긴급 발굴 필요
 
 **HUMAN 버티컬** — Kyle Chayka, Sherry Turkle 제외 후 AI optimism 방향의 HUMAN 후보 없음. 4개 에이전트 모두 우선 발굴 필요.

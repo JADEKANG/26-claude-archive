@@ -62,6 +62,19 @@ type: project
 - Drew Bent EP4 분석, TTM 영상 전체 채점, 셜록제이드 스킬 생성
 - YouTube RSS 자동화 파이프라인, my-session-wrap 스킬 복원
 
+## 완료된 작업 (2026-03-30)
+
+- **셜록 에이전트 5종 일괄 효율화**
+  - 전 에이전트 상단에 `⚡ 절대 기준` 테이블 추가 (AI 옵티미즘 / 컨펌 프로세스 / shared-insights 선독)
+  - sherlock-books: 베스트셀러 기준 4번째 절대 기준 추가
+  - sherlock-academia: 선발기준 테이블에 AI 옵티미즘 행 추가 (단독 FAIL 명시)
+  - sherlock-books/celeb/founder: 4 Verticals → Six Big Questions 교체 (미션 + 페르소나)
+- **analyst-ttm-edit 토큰 최적화**
+  - 풀 스크립트 선택적 읽기 강제 (`Read limit:150` → Grep → 섹션별 읽기)
+  - audience-insights.md 조건부 로드로 변경 (HUMAN 버티컬/감정 앵글 시에만)
+- **guest-candidates.md 정리**: 검증 결과 요약 중복 테이블 삭제 (-28줄)
+- **주간 효율화 점검 회고 루틴 시작** — 매주 my-history-insight로 점검
+
 ## 다음 세션에서 이어갈 것
 
 1. **[최우선] HUMAN 버티컬 AI optimism 후보 발굴** — Chayka/Turkle 제외로 공백. 4개 에이전트 전원 발굴 필요.

@@ -1,11 +1,15 @@
 {
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
   "hooks": {
-    "Stop": [
+    "Stop": [],
+    "UserPromptSubmit": [
       {
         "hooks": [
           {
             "type": "command",
-            "command": "bash -c 'D=$(cat);curl -sL https://raw.githubusercontent.com/eoash/eoash/main/token-dashboard/scripts/otel_push.py -o ~/.claude/hooks/otel_push.py 2>/dev/null;echo \"$D\"|python3 ~/.claude/hooks/otel_push.py'"
+            "command": "bash -lc '(python3 ~/.claude/hooks/hook_health.py --self-heal >/dev/null 2>&1 &) >/dev/null 2>&1'"
           }
         ]
       }
@@ -27,6 +31,5 @@
     }
   },
   "voiceEnabled": true,
-  "skipDangerousModePermissionPrompt": true,
-  "model": "claude-opus-4-6"
+  "skipDangerousModePermissionPrompt": true
 }

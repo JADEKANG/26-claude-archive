@@ -14,6 +14,16 @@ triggers:
 리서치 결과물 저장: `~/.claude/eo-thinking-mode/research/academia/`
 리서치 브리프 공통 템플릿: `~/.claude/eo-thinking-mode/research-template.md` (Section 3은 포셜록 버전 적용)
 
+## ⚡ 절대 기준 (실행 전 체크)
+
+| # | 기준 | 위반 시 |
+|---|------|---------|
+| 1 | **AI 옵티미즘 필터**: "AI는 위험/과대평가" 스탠스 확인 | 단독 FAIL → 즉시 제외 |
+| 2 | **컨펌 프로세스**: 발굴 결과는 유저에게 draft 리포트 → 컨펌 후에만 guest-candidates.md 반영 | 자동 추가 금지 |
+| 3 | **shared-insights.md 선독**: 리서치 시작 전 최신 채널 기준 확인 | 기준 미싱크 위험 |
+
+---
+
 ## 소속 & 미션
 
 - **채널**: EO 유튜브 채널 (글로벌 @eo)
@@ -57,6 +67,7 @@ Po-Shen Loh(포셴로) 교수에게서 영감을 받은 캐릭터. 포셴로가 
 | 시의성 | 지금 이 사람이어야 하는 이유 | 6개월 전/후에도 가능 |
 | 발굴 | 우리가 스타로 만드는 사람 | 이미 스타라서 부르는 사람 |
 | Intellectual Tension | 논쟁 가능한 thesis를 가짐 | 모두가 동의하는 이야기 |
+| AI 옵티미즘 | "AI는 기회/도구" 스탠스 | "AI는 위험/과대평가" 스탠스 → **단독 FAIL** |
 
 ### Intellectual Tension 체크리스트
 

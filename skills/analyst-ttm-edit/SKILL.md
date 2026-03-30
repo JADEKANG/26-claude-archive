@@ -13,6 +13,9 @@ triggers:
 
 ## 참조 문서
 편집 가이드: `~/.claude/eo-thinking-mode/editing/ttm-editing-guide.md`
+채널 공유 인사이트: `~/.claude/eo-thinking-mode/shared-insights.md`
+시청자 분석: `~/.claude/eo-thinking-mode/audience-insights.md`
+영상 채점 기록: `~/.claude/eo-thinking-mode/ttm-video-scores.md`
 풀 스크립트 저장소: `~/Desktop/TTM/full script/`
 YouTube 최종 자막: yt-dlp로 추출 가능
 
@@ -26,13 +29,31 @@ YouTube 최종 자막: yt-dlp로 추출 가능
 
 ## 실행 단계
 
-### Step 1: 편집 가이드 로드
+### Step 1: 컨텍스트 로드
+
+**항상 로드 (병렬)**:
 ```
-반드시 먼저 읽기: ~/.claude/eo-thinking-mode/editing/ttm-editing-guide.md
+1. ~/.claude/eo-thinking-mode/editing/ttm-editing-guide.md  — 편집 원칙 + 벤치마크 데이터
+2. ~/.claude/eo-thinking-mode/shared-insights.md            — 채널 전략, Six Big Questions, 게스트 선발 기준
+3. ~/.claude/eo-thinking-mode/ttm-video-scores.md           — 전 에피소드 채점 기록
 ```
 
+**조건부 로드** (HUMAN 버티컬 게스트이거나, 감정/관계 앵글이 주요할 때만):
+```
+4. ~/.claude/eo-thinking-mode/audience-insights.md          — 시청자 프로필, 반응 패턴
+```
+
+> 편집 방향성은 편집 가이드(밀도/구조)와 채널 방향성(shared-insights의 Six Big Questions, 시청자 고통점)이 싱크돼야 한다.
+
 ### Step 2: 소스 분석
-사용자가 제공한 풀 스크립트를 읽고 다음을 파악:
+
+> **⚡ 토큰 절약 필수**: 풀 스크립트는 60KB+ 대용량. 전체를 한 번에 읽지 않는다.
+> 1. `Read limit:150` — 앞부분 구조 파악 (게스트 소개, 초반 흐름)
+> 2. `Grep` — 숫자/데이터, 강렬한 주장, 반복 키워드 위치 확인
+> 3. `Read offset:N limit:100` — 핵심 구간만 선택적으로 읽기
+> 전체 정독은 훅 후보 확정 + 섹션 구성 시 꼭 필요한 구간만 수행.
+
+사용자가 제공한 풀 스크립트에서 다음을 파악:
 
 1. **게스트 프로필**: 누구인가, 어떤 전문성인가
 2. **토픽 맵**: 전체 스크립트에서 다루는 주제 목록 (타임스탬프 포함)

@@ -1,0 +1,40 @@
+# 세션/캐시
+sessions/
+cache/
+history.jsonl
+paste-cache/
+shell-snapshots/
+file-history/
+.session-stats.json
+debug/
+tasks/
+todos/
+.omc/
+backups/
+hud/
+plans/
+plugins/
+hooks/
+memory/
+remote-settings.json
+statusline.sh
+*.jsonl
+
+# TTM/채널 관련 (로컬 only)
+eo-thinking-mode/
+projects/
+
+# TTM 관련 스킬 (로컬 only)
+skills/analyst-ttm-edit/
+skills/sherlock-academia/
+skills/sherlock-books/
+skills/sherlock-celeb/
+skills/sherlock-founder/
+skills/sherlock-jade/
+skills/my-fetch-youtube/
+skills/my-slack-english/
+
+# Claude 설정
+settings.json
+CLAUDE.md
+.claude.json

@@ -74,16 +74,23 @@ type: project
   - audience-insights.md 조건부 로드로 변경 (HUMAN 버티컬/감정 앵글 시에만)
 - **guest-candidates.md 정리**: 검증 결과 요약 중복 테이블 삭제 (-28줄)
 - **주간 효율화 점검 회고 루틴 시작** — 매주 my-history-insight로 점검
+- **Bharat Chandar EP9 인터뷰 작업**
+  - 스크립트 전체 분석 + 타임코드별 핵심 발언 추출
+  - 헷갈렸던 8개 지점 스크립트 근거 붙여 리마인드 정리
+  - TTM 오디언스 데이터 기반 "먹히는 주장" 앵글 분석
+  - Hot Takes Breakdown 1/2/3순위 정렬 완료 → `bharat-hot-takes-breakdown.md` 저장
+  - Notion 업로드 미완료 (재시작 후 진행)
 
 ## 다음 세션에서 이어갈 것
 
-1. **[최우선] HUMAN 버티컬 AI optimism 후보 발굴** — Chayka/Turkle 제외로 공백. 4개 에이전트 전원 발굴 필요.
-2. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 리서치 파일 9섹션 소급 반영
-3. **Po-Shen Loh 풀 스크립트 확보 시 분석 추가** — 254k 최고 조회수 에피소드, 편집 패턴 분석 보강
-4. **Griffiths TED Talk 확인** — "AI ≠ 인간 사고" thesis가 optimism 프레이밍 가능한지 판별
-5. **포셜록 이름 미확인 5명 해결** — 램코 교수, Anthropic 철학자, 불확실성 연구자, HCI 연구자 이름 확인 + AI 옵티미즘 재판정
-6. **컨펌된 후보 9섹션 심화 리서치 진입** — Mollick, Bennett 우선
-7. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
+1. **[최우선] Bharat Chandar Hot Takes → Notion 업로드** — `bharat-hot-takes-breakdown.md` → Notion 페이지 `33374768ec37808597aaf9f8d23f5e77` (재시작 후 Notion MCP 확인)
+2. **[최우선] HUMAN 버티컬 AI optimism 후보 발굴** — Chayka/Turkle 제외로 공백. 4개 에이전트 전원 발굴 필요.
+3. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 리서치 파일 9섹션 소급 반영
+4. **Po-Shen Loh 풀 스크립트 확보 시 분석 추가** — 254k 최고 조회수 에피소드, 편집 패턴 분석 보강
+5. **Griffiths TED Talk 확인** — "AI ≠ 인간 사고" thesis가 optimism 프레이밍 가능한지 판별
+6. **포셜록 이름 미확인 5명 해결** — 램코 교수, Anthropic 철학자, 불확실성 연구자, HCI 연구자 이름 확인 + AI 옵티미즘 재판정
+7. **컨펌된 후보 9섹션 심화 리서치 진입** — Mollick, Bennett 우선
+8. **셜록EO / 셜록제이드 첫 리서치** — 아직 0명
 
 ## 참고 경로
 

@@ -9,3 +9,4 @@
 
 ## Project
 - [project_ttm_ip.md](project_ttm_ip.md) - EO The Thinking Mode IP 작업 현황 및 다음 세션 이어갈 것들
+- [project_nyt_bestseller_research.md](project_nyt_bestseller_research.md) - NYT 베스트셀러 Top 15 (2026-03-29) + 아마존 카테고리 추천, 아마존 데이터 추가 예정

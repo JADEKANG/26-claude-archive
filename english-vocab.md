@@ -85,3 +85,11 @@
 | running list | 계속 업데이트하는 누적 목록 | "Let's keep a running list of approved tracks." |
 | cross-check (by) | ~기준으로 교차 확인하다 | "Cross-check by title before finalizing." |
 | tracks | BGM/곡 (영어 제작 현장 용어, BGM 대신) | "Which tracks did we use in EP3?" |
+
+## 2026-03-30
+
+| 표현 | 의미 | 예시 |
+|------|------|------|
+| find it here | 여기서 확인하다 (링크 공유 시 가장 자연스러운 표현) | "You can find it here." |
+| refer to | 참조하다, 참고하다 | "Please refer to the link below." |
+| feel free to check out | 편하게 확인해봐요 (casual) | "Feel free to check it out here." |

@@ -62,6 +62,18 @@ type: project
 - Drew Bent EP4 분석, TTM 영상 전체 채점, 셜록제이드 스킬 생성
 - YouTube RSS 자동화 파이프라인, my-session-wrap 스킬 복원
 
+## 완료된 작업 (2026-03-31)
+
+- **Bharat Chandar EP9 편집 가이드 최종본 완성**
+  - 선언적 발언 vs 학자 헷지 구분 정리 완료 → `bharat-declarative-statements.md`
+  - 유진님 스크립트 노트 정리 + 편집 가이드 연결 맵핑
+  - 기존 노션 가이드 + 오늘 브레인스토밍 통합한 최종본 저장 → `bharat-editing-guide-final.md`
+  - 오프닝 몽타주 확정: 16% → 2부류 공감 [43:50] → 매니저 선언 → Stanford
+  - Lesson 1/2/3 구조: 사실 검증 → 구조 분석(왜 주니어인가) → 실전 가이드(Manager Thesis)
+  - 제목/썸네일 후보 빌딩 (팩트체크 톤, 데이터 기반)
+  - 제목 기존 노션대로 확정: *Stanford Analyzed Millions of Jobs. Junior Roles Are Disappearing.*
+  - `bharat-interview-review.md` TODO "선언적 발언 구분 정리" 체크 완료
+
 ## 완료된 작업 (2026-03-30)
 
 - **셜록 에이전트 5종 일괄 효율화**
@@ -83,8 +95,9 @@ type: project
 
 ## 다음 세션에서 이어갈 것
 
-1. **[최우선] Bharat Chandar Hot Takes → Notion 업로드** — `bharat-hot-takes-breakdown.md` → Notion 페이지 `33374768ec37808597aaf9f8d23f5e77` (재시작 후 Notion MCP 확인)
-2. **[최우선] HUMAN 버티컬 AI optimism 후보 발굴** — Chayka/Turkle 제외로 공백. 4개 에이전트 전원 발굴 필요.
+1. **[최우선] Notion MCP 재연결** — claude.ai 웹에서 Notion OAuth 재인증 필요 (Settings → Integrations → Notion → Configure). 연결 후 Claude Code 재시작하면 복구됨. 또는 Notion API 토큰으로 로컬 MCP 설치 (워크스페이스 관리자 권한 필요).
+2. **[최우선] Bharat 편집 가이드 + Hot Takes → Notion 업로드** — `bharat-editing-guide-final.md` + `bharat-hot-takes-breakdown.md` → Notion 페이지 (MCP 복구 후)
+3. **[최우선] HUMAN 버티컬 AI optimism 후보 발굴** — Chayka/Turkle 제외로 공백. 4개 에이전트 전원 발굴 필요.
 3. **[최우선] Aaker/Russell 컨펌** — guest-candidates.md 반영 + 리서치 파일 9섹션 소급 반영
 4. **Po-Shen Loh 풀 스크립트 확보 시 분석 추가** — 254k 최고 조회수 에피소드, 편집 패턴 분석 보강
 5. **Griffiths TED Talk 확인** — "AI ≠ 인간 사고" thesis가 optimism 프레이밍 가능한지 판별

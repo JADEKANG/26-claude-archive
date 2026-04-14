@@ -13,3 +13,4 @@
 - [project_ttm_positioning.md](project_ttm_positioning.md) - TTM 포지셔닝 전략 논의 — 교양 vs 빌더 인텔리전스, 가치 명제 재정의 (미완, 다음 세션 이어갈 것)
 - [project_nyt_bestseller_research.md](project_nyt_bestseller_research.md) - NYT 베스트셀러 Top 15 (2026-03-29) + 아마존 카테고리 추천, 아마존 데이터 추가 예정
 - [project_claude_optimization.md](project_claude_optimization.md) - Claude Code 설정 최적화 대기 항목 (스킬/CLAUDE.md/메모리 정리)
+- [project_adshield_edit.md](project_adshield_edit.md) - 애드쉴드 유주원 대표 인터뷰 편집 작업 — 파일 경로, Notion, 누락 소스 분석 완료

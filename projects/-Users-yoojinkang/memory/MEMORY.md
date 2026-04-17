@@ -7,6 +7,7 @@
 - [feedback_ttm_research.md](feedback_ttm_research.md) - TTM 셜록 에이전트 발굴 결과 처리 방식 및 게스트 우선순위 기준
 - [feedback_english_routine.md](feedback_english_routine.md) - 아침 10개 테스트 + 저녁 내일 표현 10개 정리
 - [feedback_tyler_haiku.md](feedback_tyler_haiku.md) - my-slack-english(Tyler) 스킬은 항상 Haiku 모델로 실행
+- [feedback_chapter_naming.md](feedback_chapter_naming.md) - EO 인터뷰 챕터명은 구어·일상 톤, 화자가 실제 들었을/말했을 법한 문장으로 (7프레임 + 자가점검)
 
 ## Project
 - [project_ttm_ip.md](project_ttm_ip.md) - EO The Thinking Mode IP 작업 현황 및 다음 세션 이어갈 것들

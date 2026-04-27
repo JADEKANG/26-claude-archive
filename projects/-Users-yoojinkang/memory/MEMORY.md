@@ -2,6 +2,7 @@
 
 ## User
 - [user_terminology.md](user_terminology.md) - 유저가 사용하는 약어/별칭 (TTM, 띵킹모드 등)
+- [user_career_background.md](user_career_background.md) - 유저 커리어 배경/포지셔닝/관심 분야 (HCI, XR, Creative Technologist)
 
 ## Feedback
 - [feedback_ttm_research.md](feedback_ttm_research.md) - TTM 셜록 에이전트 발굴 결과 처리 방식 및 게스트 우선순위 기준
@@ -15,3 +16,4 @@
 - [project_nyt_bestseller_research.md](project_nyt_bestseller_research.md) - NYT 베스트셀러 Top 15 (2026-03-29) + 아마존 카테고리 추천, 아마존 데이터 추가 예정
 - [project_claude_optimization.md](project_claude_optimization.md) - Claude Code 설정 최적화 대기 항목 (스킬/CLAUDE.md/메모리 정리)
 - [project_adshield_edit.md](project_adshield_edit.md) - 애드쉴드 유주원 대표 인터뷰 편집 작업 — 파일 경로, Notion, 누락 소스 분석 완료
+- [project_yanolja_shorts.md](project_yanolja_shorts.md) - 야놀자 이수진 인터뷰 쇼츠 1차안 — 8편 구성안 확정, 4/29 메인 영상 파이널 대기

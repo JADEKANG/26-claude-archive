@@ -17,3 +17,4 @@
 - [project_claude_optimization.md](project_claude_optimization.md) - Claude Code 설정 최적화 대기 항목 (스킬/CLAUDE.md/메모리 정리)
 - [project_adshield_edit.md](project_adshield_edit.md) - 애드쉴드 유주원 대표 인터뷰 편집 작업 — 파일 경로, Notion, 누락 소스 분석 완료
 - [project_yanolja_shorts.md](project_yanolja_shorts.md) - 야놀자 이수진 인터뷰 쇼츠 1차안 — 8편 구성안 확정, 4/29 메인 영상 파이널 대기
+- [project_chaemin_interview.md](project_chaemin_interview.md) - Chaemin Ahn (Gamma) 인터뷰 질문지 v1 완성 (8챕터 36개 질문) — EO Korea 리얼밸리 애드쉴드 후속편

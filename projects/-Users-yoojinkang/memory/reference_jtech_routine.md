@@ -24,6 +24,12 @@ metadata:
 - 교훈: claude CLI 재설치/설치경로 변경 시 이 스크립트 깨질 수 있음 → 로그에 "claude CLI not found" 뜨면 `which claude`로 새 경로 확인 후 후보 목록에 추가.
 - **07-03 추가 검증·강화**: ① 임시 11:42 스케줄로 launchd 자동발화→발송 전 구간 e2e 실증(11:42:03 fired → 11:49:58 SUCCESS, 실제 도착 확인. 테스트 후 plist 09:00만으로 원복). ② **실패 시 슬랙 알림 추가** — FAILED 브랜치에서 같은 웹훅으로 "⚠️ 발송 실패 (exit N) + 마지막 로그" 경고 발송(웹훅 URL은 prompt.txt에서 grep, python json.dumps 사용). 알림 경로도 실발송 테스트 완료(webhook response: ok). 이제 조용한 실패 없음 — 아침에 브리프도 알림도 없으면 "launchd 미발화(Mac 꺼짐)"로 좁혀짐.
 
+## 장애 이력: 07-05 API 일시 장애 → 재시도 루프 추가
+- 07-05 09:00 발화했으나 `claude -p`가 Anthropic API 일시 장애(`Connection closed mid-response`)로 exit 1 → 실패 알림 발송됨. 20:30 수동 kickstart로 당일 발송 성공.
+- **수정 완료**: run-jtech.sh에 자가 복구 루프 — 최대 3회 시도, 실패 간 5분 대기. 3회 전멸 시에만 실패 알림. 이제 알림이 왔다 = 15분 넘게 지속된 진짜 문제.
+- 샌드박스로 실패/성공 경로 검증 완료(실전 첫 회차는 07-06 09:00). 상세: `~/.claude/jtech/incident-2026-07-05.md`
+- 참고: 실패한 날은 last_success 스탬프가 안 찍히므로 수동 재실행 시 `rm last_success` 불필요, kickstart만 하면 됨.
+
 ## 트러블슈팅 순서 (안 왔을 때)
 1. `cat ~/.claude/jtech/jtech.log` — fired 기록 있는지, FAILED인지.
 2. `launchctl list | grep jtech` — 에이전트 로드돼 있는지. 없으면 `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/net.eoeoeo.jtech.plist`.

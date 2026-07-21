@@ -20,6 +20,7 @@
 - [feedback_srt_versioning.md](feedback_srt_versioning.md) - SRT/라벨 파일 새로 만들 때 덮어쓰지 말고 파일명에 "re" 계속 덧붙이기
 - [feedback_notion_style.md](feedback_notion_style.md) - 노션 페이지: 이모티콘 배제·핵심 위주·가독성 최우선 구조
 - [feedback_notion_quality.md](feedback_notion_quality.md) - 노션 페이지 산출물은 초안 바로 올리지 말고 2차 검토 거쳐 최고 퀄리티로 업로드
+- [feedback_labeling_style.md](feedback_labeling_style.md) - 아드 라벨링 문체=제이드 관찰노트 톤(짧게·실명·무태그), 새 팀 시작 전 수기 정량대조 먼저
 
 ## Project
 - [project_ttm_ip.md](project_ttm_ip.md) - EO The Thinking Mode IP 작업 현황 및 다음 세션 이어갈 것들
@@ -32,4 +33,6 @@
 - [project_chaemin_interview.md](project_chaemin_interview.md) - Chaemin Ahn (Gamma) 인터뷰 — 풀스크립트 받음 + 마스터 가이드 v1 작성(로컬+Notion), 챕터 디테일 미작성
 - [project_american_dream_ip.md](project_american_dream_ip.md) - 아메리칸 드림 2.0 다큐 IP 방향성 — "믿음 vs 현실의 시험" 중심, 7단계 척추, Ep3=Light Anchor 진행
 - [project_seongman_ep5.md](project_seongman_ep5.md) - 조성만 = 아드 Ep5 — 구성안 v1 "DON'T DIE 48시간 구조" [확정] + 장별 컷 [잠정] 노션 업로드 완료, 다음=프리미어 컷 검증
+- [project_arky_ep3.md](project_arky_ep3.md) - Arky = 아드 3화 — 현장1 라벨링+SRT 완료, 메인 인터뷰 프리미어 TC 노션화 완료, TC 보정 역반영 루프를 이 편에서 정립 (제이드 전체 수정본 대기)
+- [project_aside_ep4.md](project_aside_ep4.md) - Aside = 아드 Ep4 — YC F25 천재 2인(효준·이찬희)의 '피봇' 이야기. 라벨링 착수 직전, 소스 입수 대기
 - [project_pensive_ep6.md](project_pensive_ep6.md) - Pensive(양윤석) = 아드 Ep6(마지막) — 무모한확신+논리의 강한인물. 메인 라벨링 완료, 현장촬영 0528·0529 입수·구조파악 완료. ★라벨링은 조성만 재학습 스펙 확정까지 홀드

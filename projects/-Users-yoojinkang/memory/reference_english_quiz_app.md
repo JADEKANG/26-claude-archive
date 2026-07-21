@@ -40,5 +40,10 @@ metadata:
 - (폐기) 바탕화면 폴더 `~/Desktop/영어수첩`은 슬랙 선회로 삭제함.
 - ※완전 예약(무인) 루틴은 헤드리스에서 슬랙 커넥터 미연결 리스크 → 온디맨드("영어수첩 업데이트")로 시작.
 
+## ★스타트업 용어 사전 (2026-07-08 추가)
+- 홈 화면에 "🚀 스타트업 용어 사전" 버튼 별도 신설. 스타트업 카테고리(scrappy·burn rate·PMF 등 40개, vocab.md `## 2026-07-08 (스타트업 필수 50개)` 섹션)에서 랜덤 10문제, **전부 영작형**(객관식 없음).
+- 구현: `build_app.py` parse()가 날짜 헤더 텍스트에 "스타트업" 포함 여부로 `cat:"startup"` 태그 부여 → `_template.html`에 `buildStartupQuiz()` 별도 함수(N_SU=10, 전부 type:'wr') + `isStartupQuiz` 플래그로 스트릭/최고점수 등 기존 통계 오염 방지(store 저장 skip). `lastBuilder` 변수로 "다른 문제 더 풀기"가 직전 모드(메인/스타트업) 유지.
+- vocab.md에 스타트업 관련 표현 새로 추가할 땐 날짜 헤더에 "스타트업" 텍스트 포함시켜야 이 탭에 잡힘.
+
 ## 관련 메모리
 - [[reference_notion_callout_skill]] · [[feedback_tyler_haiku]] (Tyler=my-slack-english 스킬)

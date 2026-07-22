@@ -7,6 +7,7 @@
 ## Reference
 - [reference_notion_callout_skill.md](reference_notion_callout_skill.md) - my-notion-callout 스킬 + "I:" 단축어 (노션 메모 → callout 인사이트 정리)
 - [reference_premiere_mcp.md](reference_premiere_mcp.md) - 프리미어 프로 MCP 셋업(leancoderkavy) + 노션 라벨 TC를 프리미어에 붙일 때 4블록 SMPTE 형식 해법
+- [reference_fcpxml_caption_extraction.md](reference_fcpxml_caption_extraction.md) - 파이널컷 .fcpxmld Captions 롤을 절대 TC와 함께 파싱하는 법 (중첩 offset 계산, 롤 구분)
 - [reference_jtech_routine.md](reference_jtech_routine.md) - jtech 테크뉴스 매일 09시 슬랙 채널 자동발송 — 2026-07-02부터 로컬 launchd 방식(클라우드 루틴 폐기), 로그 ~/.claude/jtech/jtech.log
 - [reference_english_quiz_app.md](reference_english_quiz_app.md) - 점심 영어 학습 아티팩트 앱(Tyler 단어장 퀴즈/플래시카드) + 위치·재배포법 + 노션캘린더 평일 1PM 알림
 

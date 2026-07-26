@@ -14,27 +14,22 @@ backups/
 hud/
 plans/
 plugins/
-hooks/
-memory/
 remote-settings.json
 statusline.sh
 *.jsonl
 
+# hooks/ 는 .py 스크립트만 추적, 나머지(캐시/로그/상태파일)는 제외
+hooks/*
+!hooks/*.py
+
 # TTM/채널 관련 (로컬 only)
 eo-thinking-mode/
-projects/
 
-# TTM 관련 스킬 (로컬 only)
-skills/analyst-ttm-edit/
-skills/sherlock-academia/
-skills/sherlock-books/
-skills/sherlock-celeb/
-skills/sherlock-founder/
-skills/sherlock-jade/
-skills/my-fetch-youtube/
-skills/my-slack-english/
+# projects/ 는 세션 기록이라 통째로 제외하되, memory/ 만 예외로 추적
+projects/*
+!projects/-Users-yoojinkang/
+projects/-Users-yoojinkang/*
+!projects/-Users-yoojinkang/memory/
 
-# Claude 설정
-settings.json
-CLAUDE.md
+# Claude 계정 인증/세션 정보 (계정별로 새로 생성되므로 제외)
 .claude.json

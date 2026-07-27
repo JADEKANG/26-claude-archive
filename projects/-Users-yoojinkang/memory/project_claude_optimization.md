@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4c6a20a8-0f2d-43a4-bb99-91ce5c689e13
+  modified: 2026-07-27T14:07:29.283Z
 ---
 
 다음 세션에서 "최적화" 요청 시 아래 항목을 실행한다.
@@ -22,7 +23,7 @@ metadata:
 2. **Memory 인덱스 누락 수정**: `feedback_tyler_haiku.md`가 MEMORY.md에 없음 → 항목 추가
 
 ### 🟡 다음
-3. **영어학습 루틴 GitHub 개인 계정 이전** (2026-07-02 제이드 지시): 클라우드 루틴이 쓰는 `yjk-claude/english-study` 저장소를 제이드 개인 GitHub 계정으로 이전. 루틴 2개(영어 아침 표현 `trig_014YN2uVMDeS3zHjhYkw6Ed2`·영어 저녁 recap은 비활성)의 repo URL도 함께 업데이트 필요. [[reference_jtech_routine]]
+3. **영어학습 루틴 GitHub 개인 계정 이전** (2026-07-02 제이드 지시): ✅ 2026-07-27 repo 자체는 이전 완료(`yjk-claude/english-study` → `JADEKANG/english-study`, [[project_claude_account_migration]]). ⬜ 남음: 루틴 2개(영어 아침 표현 `trig_014YN2uVMDeS3zHjhYkw6Ed2`·영어 저녁 recap은 비활성)의 설정이 옛 repo URL을 참조 중인지 확인 후 새 URL로 업데이트. [[reference_jtech_routine]]
 4. **Sherlock 공통 기준 추출**: `sherlock-founder`, `sherlock-jade` 등에 동일하게 복붙된 ⚡ 절대 기준 3개(AI 옵티미즘 필터, 컨펌 프로세스, shared-insights.md 선독)를 `~/.claude/eo-thinking-mode/sherlock-common.md`로 추출
 
 ### 🟢 나중

@@ -37,3 +37,4 @@
 - [project_arky_ep3.md](project_arky_ep3.md) - Arky = 아드 3화 — 현장1 라벨링+SRT 완료, 메인 인터뷰 프리미어 TC 노션화 완료, TC 보정 역반영 루프를 이 편에서 정립 (제이드 전체 수정본 대기)
 - [project_aside_ep4.md](project_aside_ep4.md) - Aside = 아드 Ep4 — YC F25 천재 2인(효준·이찬희)의 '피봇' 이야기. 라벨링 착수 직전, 소스 입수 대기
 - [project_pensive_ep6.md](project_pensive_ep6.md) - Pensive(양윤석) = 아드 Ep6(마지막) — 무모한확신+논리의 강한인물. 메인+현장0529 라벨링 최신스타일 재정비 완료(2026-07-27), 0528은 미작업
+- [project_claude_account_migration.md](project_claude_account_migration.md) - JADEKANG 개인 계정+새 노트북 이전 — 4개 repo 백업 완료(`~/.claude` 등), 남은 것: 영어학습 루틴 URL·eo-thinking-mode·Vercel·webhook 시크릿

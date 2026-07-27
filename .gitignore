@@ -33,3 +33,10 @@ projects/-Users-yoojinkang/*
 
 # Claude 계정 인증/세션 정보 (계정별로 새로 생성되므로 제외)
 .claude.json
+
+# jtech: 스크립트/프롬프트만 추적, 실제 웹훅 시크릿과 로그/상태는 제외
+jtech/.webhook_url
+jtech/brief_today.txt
+jtech/jtech.log
+jtech/last_success
+jtech/launchd.*.log

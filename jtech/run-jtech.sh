@@ -40,17 +40,29 @@ fi
 export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 
 # 헤드리스 실행: 뉴스 수집 → 브리프 작성 → 웹훅 POST 까지 프롬프트가 지시
-"$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" \
-  --allowedTools "Bash,Read,Write,WebFetch,WebSearch" \
-  --max-turns 40 \
-  >> "$LOG_FILE" 2>&1
-STATUS=$?
+# 일시적 API 장애(connection drop 등) 자가 복구: 최대 3회 시도, 실패 시 5분 대기 후 재시도
+MAX_ATTEMPTS=3
+RETRY_WAIT=300
+STATUS=1
+for attempt in $(seq 1 $MAX_ATTEMPTS); do
+  echo "[$(date '+%F %T')] attempt $attempt/$MAX_ATTEMPTS" >> "$LOG_FILE"
+  "$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" \
+    --allowedTools "Bash,Read,Write,WebFetch,WebSearch" \
+    --max-turns 40 \
+    >> "$LOG_FILE" 2>&1
+  STATUS=$?
+  [[ $STATUS -eq 0 ]] && break
+  echo "[$(date '+%F %T')] attempt $attempt failed (exit $STATUS)" >> "$LOG_FILE"
+  if [[ $attempt -lt $MAX_ATTEMPTS ]]; then
+    sleep $RETRY_WAIT
+  fi
+done
 
 if [[ $STATUS -eq 0 ]]; then
   echo "$TODAY" > "$STAMP_FILE"
   echo "[$(date '+%F %T')] SUCCESS" >> "$LOG_FILE"
 else
-  echo "[$(date '+%F %T')] FAILED (exit $STATUS) — will retry on next wake" >> "$LOG_FILE"
+  echo "[$(date '+%F %T')] FAILED after $MAX_ATTEMPTS attempts (exit $STATUS) — will retry on next wake" >> "$LOG_FILE"
   # 실패 알림: 같은 웹훅으로 짧은 경고 발송 (조용한 실패 방지)
   WEBHOOK_URL="$(grep -o 'https://hooks.slack.com/services/[A-Za-z0-9/]*' "$PROMPT_FILE" | head -1)"
   if [[ -n "$WEBHOOK_URL" ]]; then

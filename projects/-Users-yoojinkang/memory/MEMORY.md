@@ -33,7 +33,7 @@
 - [project_yanolja_shorts.md](project_yanolja_shorts.md) - 야놀자 이수진 인터뷰 쇼츠 1차안 — 8편 구성안 확정, 4/29 메인 영상 파이널 대기
 - [project_chaemin_interview.md](project_chaemin_interview.md) - Chaemin Ahn (Gamma) 인터뷰 — 풀스크립트 받음 + 마스터 가이드 v1 작성(로컬+Notion), 챕터 디테일 미작성
 - [project_american_dream_ip.md](project_american_dream_ip.md) - 아메리칸 드림 2.0 다큐 IP 방향성 — "믿음 vs 현실의 시험" 중심, 7단계 척추, Ep3=Light Anchor 진행
-- [project_seongman_ep5.md](project_seongman_ep5.md) - 조성만 = 아드 Ep5 — 구성안 v1 "DON'T DIE 48시간 구조" [확정] + 장별 컷 [잠정] 노션 업로드 완료, 다음=프리미어 컷 검증
+- [project_seongman_ep5.md](project_seongman_ep5.md) - 조성만 = 아드 Ep5 — 구성안 v1 "DON'T DIE 48시간 구조" [확정] + 장별 컷 [잠정]. 메인+현장8개 라벨링 최신스타일 재정비 완료(2026-07-26), 다음=프리미어 컷 검증
 - [project_arky_ep3.md](project_arky_ep3.md) - Arky = 아드 3화 — 현장1 라벨링+SRT 완료, 메인 인터뷰 프리미어 TC 노션화 완료, TC 보정 역반영 루프를 이 편에서 정립 (제이드 전체 수정본 대기)
 - [project_aside_ep4.md](project_aside_ep4.md) - Aside = 아드 Ep4 — YC F25 천재 2인(효준·이찬희)의 '피봇' 이야기. 라벨링 착수 직전, 소스 입수 대기
-- [project_pensive_ep6.md](project_pensive_ep6.md) - Pensive(양윤석) = 아드 Ep6(마지막) — 무모한확신+논리의 강한인물. 메인 라벨링 완료, 현장촬영 0528·0529 입수·구조파악 완료. ★라벨링은 조성만 재학습 스펙 확정까지 홀드
+- [project_pensive_ep6.md](project_pensive_ep6.md) - Pensive(양윤석) = 아드 Ep6(마지막) — 무모한확신+논리의 강한인물. 메인+현장0529 라벨링 최신스타일 재정비 완료(2026-07-27), 0528은 미작업

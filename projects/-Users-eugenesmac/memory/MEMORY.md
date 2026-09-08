@@ -10,6 +10,7 @@
 - [reference_fcpxml_caption_extraction.md](reference_fcpxml_caption_extraction.md) - 파이널컷 .fcpxmld Captions 롤을 절대 TC와 함께 파싱하는 법 (중첩 offset 계산, 롤 구분)
 - [reference_jtech_routine.md](reference_jtech_routine.md) - jtech 테크뉴스 매일 09시 슬랙 채널 자동발송 — 2026-07-02부터 로컬 launchd 방식(클라우드 루틴 폐기), 로그 ~/.claude/jtech/jtech.log
 - [reference_english_quiz_app.md](reference_english_quiz_app.md) - 점심 영어 학습 아티팩트 앱(Tyler 단어장 퀴즈/플래시카드) + 위치·재배포법 + 노션캘린더 평일 1PM 알림
+- [reference_xai_mechinterp_resources.md](reference_xai_mechinterp_resources.md) - XAI/mechanistic interpretability 독학 자료 — transformer-circuits.pub 읽는 순서(Scaling Monosemanticity→Biology of LLM→Toy Models) + 병행 코스
 
 ## Feedback
 - [feedback_ttm_research.md](feedback_ttm_research.md) - TTM 셜록 에이전트 발굴 결과 처리 방식 및 게스트 우선순위 기준
@@ -38,6 +39,7 @@
 - [project_aside_ep4.md](project_aside_ep4.md) - Aside = 아드 Ep4 — YC F25 천재 2인(효준·이찬희)의 '피봇' 이야기. 라벨링 착수 직전, 소스 입수 대기
 - [project_pensive_ep6.md](project_pensive_ep6.md) - Pensive(양윤석) = 아드 Ep6(마지막) — 무모한확신+논리의 강한인물. 메인+현장0529 라벨링 최신스타일 재정비 완료(2026-07-27), 0528은 미작업
 - [project_claude_account_migration.md](project_claude_account_migration.md) - JADEKANG 개인 계정+새 노트북 이전 — 4개 repo 백업 완료(`~/.claude` 등), 남은 것: 영어학습 루틴 URL·eo-thinking-mode·Vercel·webhook 시크릿
+- [project_last_semester_course_choice.md](project_last_semester_course_choice.md) - 마지막 학기 수강 결정 — XAI 대신 DL&CV 선택(XR/HCI 방향과 직결), XAI는 mech interp로 독학 예정
 
 ## Legacy EO (구메모리, project_american_dream_ip.md 등 최신 세트로 계승됐을 수 있음)
 - [user_company.md](user_company.md) — 유저는 EO(이오스튜디오) 소속 미디어 스타트업

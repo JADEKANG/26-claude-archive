@@ -1,40 +1,11 @@
-# 세션/캐시
-sessions/
-cache/
-history.jsonl
-paste-cache/
-shell-snapshots/
-file-history/
-.session-stats.json
-debug/
-tasks/
-todos/
-.omc/
-backups/
-hud/
-plans/
-plugins/
-remote-settings.json
-statusline.sh
-*.jsonl
-
 # hooks/ 는 .py 스크립트만 추적, 나머지(캐시/로그/상태파일)는 제외
-hooks/*
-!hooks/*.py
-
-# projects/ 는 세션 기록이라 통째로 제외하되, memory/ 만 예외로 추적
-projects/*
-!projects/-Users-eugenesmac/
-projects/-Users-eugenesmac/*
-!projects/-Users-eugenesmac/memory/
-
-# Claude 계정 인증/세션 정보 (계정별로 새로 생성되므로 제외)
-.claude.json
+claude/hooks/*
+!claude/hooks/*.py
 
 # jtech: 스크립트/프롬프트만 추적, 실제 시크릿과 로그/상태는 제외
-jtech/.webhook_url
-jtech/.email_app_password
-jtech/brief_today.txt
-jtech/jtech.log
-jtech/last_success
-jtech/launchd.*.log
+claude/jtech/.webhook_url
+claude/jtech/.email_app_password
+claude/jtech/brief_today.txt
+claude/jtech/jtech.log
+claude/jtech/last_success
+claude/jtech/launchd.*.log

@@ -3,35 +3,24 @@
     "defaultMode": "bypassPermissions"
   },
   "model": "sonnet",
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/eugenesmac/.claude/statusline.sh"
+  },
+  "theme": "auto",
+  "skipDangerousModePermissionPrompt": true,
+  "voiceEnabled": true,
+  "tui": "fullscreen",
   "hooks": {
-    "Stop": [],
-    "UserPromptSubmit": [
+    "Stop": [
       {
         "hooks": [
           {
             "type": "command",
-            "command": "bash -lc '(python3 ~/.claude/hooks/hook_health.py --self-heal >/dev/null 2>&1 &) >/dev/null 2>&1'"
+            "command": "bash -lc '(bash ~/.claude/backup-to-github.sh >/dev/null 2>&1 &) >/dev/null 2>&1'"
           }
         ]
       }
     ]
-  },
-  "statusLine": {
-    "type": "command",
-    "command": "~/.claude/statusline.sh"
-  },
-  "enabledPlugins": {
-    "oh-my-claudecode@omc": true
-  },
-  "extraKnownMarketplaces": {
-    "omc": {
-      "source": {
-        "source": "git",
-        "url": "https://github.com/Yeachan-Heo/oh-my-claudecode.git"
-      }
-    }
-  },
-  "tui": "fullscreen",
-  "skipDangerousModePermissionPrompt": true,
-  "voiceEnabled": true
+  }
 }

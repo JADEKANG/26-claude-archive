@@ -7,7 +7,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/zsh</string>
-        <string>/Users/yoojinkang/.claude/jtech/run-jtech.sh</string>
+        <string>/Users/eugenesmac/.claude/jtech/run-jtech.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -17,8 +17,8 @@
         <integer>0</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/yoojinkang/.claude/jtech/launchd.out.log</string>
+    <string>/Users/eugenesmac/.claude/jtech/launchd.out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/yoojinkang/.claude/jtech/launchd.err.log</string>
+    <string>/Users/eugenesmac/.claude/jtech/launchd.err.log</string>
 </dict>
 </plist>

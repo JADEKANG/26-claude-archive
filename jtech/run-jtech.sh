@@ -39,7 +39,7 @@ fi
 # claude(node)가 npm/node 등을 찾을 수 있게 PATH 보강
 export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$PATH"
 
-# 헤드리스 실행: 뉴스 수집 → 브리프 작성 → 웹훅 POST 까지 프롬프트가 지시
+# 헤드리스 실행: 뉴스 수집 → 브리프 작성 → 이메일 발송까지 프롬프트가 지시
 # 일시적 API 장애(connection drop 등) 자가 복구: 최대 3회 시도, 실패 시 5분 대기 후 재시도
 MAX_ATTEMPTS=3
 RETRY_WAIT=300
@@ -63,14 +63,24 @@ if [[ $STATUS -eq 0 ]]; then
   echo "[$(date '+%F %T')] SUCCESS" >> "$LOG_FILE"
 else
   echo "[$(date '+%F %T')] FAILED after $MAX_ATTEMPTS attempts (exit $STATUS) — will retry on next wake" >> "$LOG_FILE"
-  # 실패 알림: 같은 웹훅으로 짧은 경고 발송 (조용한 실패 방지)
-  WEBHOOK_URL="$(grep -o 'https://hooks.slack.com/services/[A-Za-z0-9/]*' "$PROMPT_FILE" | head -1)"
-  if [[ -n "$WEBHOOK_URL" ]]; then
+  # 실패 알림: 같은 지메일로 짧은 경고 발송 (조용한 실패 방지)
+  APP_PW_FILE="$JTECH_DIR/.email_app_password"
+  if [[ -f "$APP_PW_FILE" ]]; then
     LAST_LOG="$(tail -3 "$LOG_FILE" | tr '\n' ' ' | cut -c1-300)"
     /usr/bin/python3 -c "
-import json, subprocess, sys
-msg = {'text': '<@U0A6U8EFX52> ⚠️ JTech 브리프 발송 실패 (exit $STATUS). Mac에서 \`tail ~/.claude/jtech/jtech.log\` 확인 필요. 마지막 로그: ' + sys.argv[1]}
-subprocess.run(['curl', '-s', '-X', 'POST', '-H', 'Content-type: application/json', '-d', json.dumps(msg), '$WEBHOOK_URL'], timeout=30)
+import smtplib
+from email.mime.text import MIMEText
+import sys
+
+app_password = open('$APP_PW_FILE', encoding='utf-8').read().strip()
+msg = MIMEText('JTech 브리프 발송 실패 (exit $STATUS). Mac에서 tail ~/.claude/jtech/jtech.log 확인 필요. 마지막 로그: ' + sys.argv[1], 'plain', 'utf-8')
+msg['Subject'] = 'JTech 발송 실패 경고'
+msg['From'] = 'ujini02@gmail.com'
+msg['To'] = 'ujini02@gmail.com'
+with smtplib.SMTP('smtp.gmail.com', 587) as s:
+    s.starttls()
+    s.login('ujini02@gmail.com', app_password)
+    s.send_message(msg)
 " "$LAST_LOG" >> "$LOG_FILE" 2>&1
     echo "[$(date '+%F %T')] failure alert sent" >> "$LOG_FILE"
   fi

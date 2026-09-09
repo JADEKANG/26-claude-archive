@@ -1,11 +1,18 @@
 ---
 name: reference_jtech_routine
-description: 매일 아침 테크뉴스 브리프를 슬랙 채널에 웹훅(봇)으로 보내는 자동화 — 2026-07-02부터 로컬 launchd 방식 (클라우드 루틴 폐기)
+description: 매일 아침 테크뉴스 브리프를 이메일(Gmail SMTP)로 보내는 자동화 — 2026-09-09부터 Slack→Gmail 전환, 로컬 launchd 방식 유지
 metadata: 
   node_type: memory
   type: reference
   originSessionId: 4c6a20a8-0f2d-43a4-bb99-91ce5c689e13
+  modified: 2026-09-09T02:32:41.340Z
 ---
+
+## ★2026-09-09 업데이트 — Slack → Gmail 전환 (EO 퇴사 후 개인 계정 이전)
+- 더 이상 Slack을 안 써서 **발송 채널을 Slack 웹훅 → Gmail SMTP로 교체**. `ujini02@gmail.com`으로 자기 자신에게 발송(App Password 방식, `~/.claude/jtech/.email_app_password`, git엔 안 올라감).
+- `~/.claude/jtech/prompt.txt`, `run-jtech.sh` 전면 재작성 — Slack mrkdwn 포맷 → 일반 텍스트 이메일 포맷, 실패 알림도 같은 Gmail SMTP로 발송.
+- launchd 재등록 완료(`net.eoeoeo.jtech`, 매일 09:00 KST, 경로는 새 계정 유저네임 `eugenesmac` 기준으로 갱신). e2e 테스트 발송 성공 확인(2026-09-08).
+- 아래 07-02~07-05 장애 이력은 **구 Slack 버전 기준 기록**(트러블슈팅 원리·launchd 구조는 여전히 유효, 발송처만 다름).
 
 `jtech` 데일리 브리프 자동화. 3일 연속 장애 끝에 **2026-07-02 클라우드 루틴을 버리고 로컬 launchd로 전환**.
 

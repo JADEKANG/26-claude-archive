@@ -23,6 +23,7 @@
 - [feedback_notion_style.md](feedback_notion_style.md) - 노션 페이지: 이모티콘 배제·핵심 위주·가독성 최우선 구조
 - [feedback_notion_quality.md](feedback_notion_quality.md) - 노션 페이지 산출물은 초안 바로 올리지 말고 2차 검토 거쳐 최고 퀄리티로 업로드
 - [feedback_labeling_style.md](feedback_labeling_style.md) - 아드 라벨링 문체=제이드 관찰노트 톤(짧게·실명·무태그), 새 팀 시작 전 수기 정량대조 먼저
+- [feedback_session_wrap_retrospective.md](feedback_session_wrap_retrospective.md) - 세션 마무리마다(요청 없어도) 짧은 회고+소통 효율화 제안을 자동으로 덧붙일 것 (2026-09-09 요청)
 
 ## Project
 - [project_ttm_ip.md](project_ttm_ip.md) - EO The Thinking Mode IP 작업 현황 및 다음 세션 이어갈 것들
@@ -38,7 +39,7 @@
 - [project_arky_ep3.md](project_arky_ep3.md) - Arky = 아드 3화 — 현장1 라벨링+SRT 완료, 메인 인터뷰 프리미어 TC 노션화 완료, TC 보정 역반영 루프를 이 편에서 정립 (제이드 전체 수정본 대기)
 - [project_aside_ep4.md](project_aside_ep4.md) - Aside = 아드 Ep4 — YC F25 천재 2인(효준·이찬희)의 '피봇' 이야기. 라벨링 착수 직전, 소스 입수 대기
 - [project_pensive_ep6.md](project_pensive_ep6.md) - Pensive(양윤석) = 아드 Ep6(마지막) — 무모한확신+논리의 강한인물. 메인+현장0529 라벨링 최신스타일 재정비 완료(2026-07-27), 0528은 미작업
-- [project_claude_account_migration.md](project_claude_account_migration.md) - JADEKANG 개인 계정+새 노트북 이전 — 4개 repo 백업 완료(`~/.claude` 등), 남은 것: 영어학습 루틴 URL·eo-thinking-mode·Vercel·webhook 시크릿
+- [project_claude_account_migration.md](project_claude_account_migration.md) - JADEKANG 개인 계정+새 노트북(eugenesmac) 이전 — 2026-09-09 사실상 완료(jtech Gmail전환·백업자동화·퀴즈앱재배포·캘린더재설정 등), 남은 건 yjk repo 정리 정도
 - [project_last_semester_course_choice.md](project_last_semester_course_choice.md) - 마지막 학기 수강 결정 — XAI 대신 DL&CV 선택(XR/HCI 방향과 직결), XAI는 mech interp로 독학 예정
 
 ## Legacy EO (구메모리, project_american_dream_ip.md 등 최신 세트로 계승됐을 수 있음)

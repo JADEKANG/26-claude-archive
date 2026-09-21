@@ -41,6 +41,7 @@
 - [project_pensive_ep6.md](project_pensive_ep6.md) - Pensive(양윤석) = 아드 Ep6(마지막) — 무모한확신+논리의 강한인물. 메인+현장0529 라벨링 최신스타일 재정비 완료(2026-07-27), 0528은 미작업
 - [project_claude_account_migration.md](project_claude_account_migration.md) - JADEKANG 개인 계정+새 노트북(eugenesmac) 이전 — 2026-09-09 사실상 완료(jtech Gmail전환·백업자동화·퀴즈앱재배포·캘린더재설정 등), 남은 건 yjk repo 정리 정도
 - [project_last_semester_course_choice.md](project_last_semester_course_choice.md) - 마지막 학기 수강 결정 — XAI 대신 DL&CV 선택(XR/HCI 방향과 직결), XAI는 mech interp로 독학 예정
+- [project_c_programming_study.md](project_c_programming_study.md) - C 프로그래밍 수업 결석분 노션 자료 독학 복습 — bit/byte/hex 등 개념 단계 완료, Practice 실습은 아직
 
 ## Legacy EO (구메모리, project_american_dream_ip.md 등 최신 세트로 계승됐을 수 있음)
 - [user_company.md](user_company.md) — 유저는 EO(이오스튜디오) 소속 미디어 스타트업

@@ -68,7 +68,7 @@ else
   if [[ -f "$APP_PW_FILE" ]]; then
     LAST_LOG="$(tail -3 "$LOG_FILE" | tr '\n' ' ' | cut -c1-300)"
     /usr/bin/python3 -c "
-import smtplib
+import imaplib, time
 from email.mime.text import MIMEText
 import sys
 
@@ -77,10 +77,10 @@ msg = MIMEText('JTech 브리프 발송 실패 (exit $STATUS). Mac에서 tail ~/.
 msg['Subject'] = 'JTech 발송 실패 경고'
 msg['From'] = 'ujini02@gmail.com'
 msg['To'] = 'ujini02@gmail.com'
-with smtplib.SMTP('smtp.gmail.com', 587) as s:
-    s.starttls()
-    s.login('ujini02@gmail.com', app_password)
-    s.send_message(msg)
+imap = imaplib.IMAP4_SSL('imap.gmail.com')
+imap.login('ujini02@gmail.com', app_password)
+imap.append('INBOX', '', imaplib.Time2Internaldate(time.time()), msg.as_bytes())
+imap.logout()
 " "$LAST_LOG" >> "$LOG_FILE" 2>&1
     echo "[$(date '+%F %T')] failure alert sent" >> "$LOG_FILE"
   fi

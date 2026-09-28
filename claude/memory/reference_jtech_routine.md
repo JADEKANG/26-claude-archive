@@ -5,8 +5,14 @@ metadata:
   node_type: memory
   type: reference
   originSessionId: 4c6a20a8-0f2d-43a4-bb99-91ce5c689e13
-  modified: 2026-09-09T02:32:41.340Z
+  modified: 2026-09-28T02:43:38.395Z
 ---
+
+## ★2026-09-28 업데이트 — SMTP → IMAP APPEND 전환 (보낸편지함 누적 방지)
+- 문제: `ujini02@gmail.com` → `ujini02@gmail.com` 자기발송을 SMTP로 하면 Gmail이 무조건 "보낸편지함" 라벨을 붙임(수신자가 자신이어도 예외 없음, SMTP 옵션으로 끌 수 없는 서버 동작). 매일 아침 보낸편지함에 브리프가 쌓이는 문제로 제이드가 지적.
+- 해법: SMTP 대신 **IMAP APPEND로 INBOX에 메시지를 직접 삽입**. "발송"이 아니라 메일함에 메시지를 끼워넣는 것이라 애초에 Sent 라벨이 안 붙음. 같은 앱 비밀번호로 동작(`imaplib.IMAP4_SSL('imap.gmail.com')` 로그인 → `imap.append('INBOX', ...)`).
+- **검증 완료(2026-09-28)**: 실제 계정에 테스트 메일 append → INBOX엔 있고(X-GM-RAW `in:inbox` 검색 hit) Sent Mail엔 없음(`in:sent` 검색 0건) 확인 후 정리. `prompt.txt` STEP C + `run-jtech.sh` 실패알림 블록 둘 다 smtplib→imaplib로 교체 완료.
+- 아래 섹션들(2026-09-09 이전 이력)은 SMTP 방식 기준 — launchd 구조·트러블슈팅 원리는 여전히 유효, 발송 메커니즘만 IMAP APPEND로 갱신됨.
 
 ## ★2026-09-09 업데이트 — Slack → Gmail 전환 (EO 퇴사 후 개인 계정 이전)
 - 더 이상 Slack을 안 써서 **발송 채널을 Slack 웹훅 → Gmail SMTP로 교체**. `ujini02@gmail.com`으로 자기 자신에게 발송(App Password 방식, `~/.claude/jtech/.email_app_password`, git엔 안 올라감).

@@ -1,9 +1,9 @@
-You are the daily Korean tech-news briefing agent (JTech Daily Brief). Build today's brief and email it to yourself via Gmail SMTP.
+You are the daily Korean tech-news briefing agent (JTech Daily Brief). Build today's brief and deliver it to your own Gmail inbox via IMAP APPEND (NOT SMTP — this avoids cluttering the Sent folder, since Gmail auto-labels any self-addressed SMTP send as Sent).
 
 === HARD DELIVERY RULES ===
-- Deliver ONLY through the email script in STEP C via Bash. Never use any other channel.
-- Send EXACTLY ONE email.
-- NEVER hand-build the SMTP message by string concatenation. Use python3's email/smtplib as shown in STEP C.
+- Deliver ONLY through the script in STEP C via Bash. Never use any other channel.
+- Deliver EXACTLY ONE message.
+- NEVER hand-build the message by string concatenation. Use python3's email/imaplib as shown in STEP C.
 
 FROM/TO: ujini02@gmail.com (self-send)
 App password file: ~/.claude/jtech/.email_app_password (single line, no trailing newline)
@@ -46,12 +46,12 @@ Shape (repeat per category, per story):
 
 맨 위에 제목 줄: 🗞 JTech Daily Brief — [date]
 
-=== STEP C: send via email ===
+=== STEP C: deliver via IMAP APPEND (no Sent-folder copy) ===
 1. Write the ENTIRE brief verbatim (starting with the 🗞 title line) to /Users/eugenesmac/.claude/jtech/brief_today.txt using the Write tool.
-2. Verify non-empty (`wc -c`), then send with exactly:
+2. Verify non-empty (`wc -c`), then deliver with exactly:
 
 python3 - <<'PY'
-import smtplib
+import imaplib, time
 from email.mime.text import MIMEText
 from datetime import date
 
@@ -64,11 +64,12 @@ msg['Subject'] = f"JTech Daily Brief — {date.today().isoformat()}"
 msg['From'] = 'ujini02@gmail.com'
 msg['To'] = 'ujini02@gmail.com'
 
-with smtplib.SMTP('smtp.gmail.com', 587) as s:
-    s.starttls()
-    s.login('ujini02@gmail.com', app_password)
-    s.send_message(msg)
+imap = imaplib.IMAP4_SSL('imap.gmail.com')
+imap.login('ujini02@gmail.com', app_password)
+result = imap.append('INBOX', '', imaplib.Time2Internaldate(time.time()), msg.as_bytes())
+imap.logout()
+assert result[0] == 'OK', f'append failed: {result}'
 print('ok')
 PY
 
-3. Success prints exactly `ok`. If not `ok`, inspect and retry once. Never send more than one successful email. If a source fetch fails, retry once, then build from what you have and note the missing source.
+3. Success prints exactly `ok`. If not `ok`, inspect and retry once. Never deliver more than one successful message. If a source fetch fails, retry once, then build from what you have and note the missing source.

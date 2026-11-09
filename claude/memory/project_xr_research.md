@@ -43,3 +43,5 @@ metadata:
 - 구현 1주차: Mixamo 상자 던지기/떨어뜨리기 동작 1개 FBX(In Place 끔) → **Blender Python**으로 전 프레임 전 본 로컬 쿼터니언 + 양손목·머리 월드 좌표 JSON 저장 → 상체 본만 회전벡터(첫 프레임 기준 log map, 3채널)로 바꿔 Wang 필터 → 쿼터니언 복원 → FBX로 Unity(Humanoid)에서 필터 有/無 두 아바타 나란히 재생·녹화. 확인 포인트: gain 올리면 준비·마무리 동작이 눈에 띄게 커지는가.
 - 옵션: Mixamo 후보 선별 표, 아바타 구매(남/여 사람), 이머시브홀 3DGS 배경 검토. 참고: CMU mocap, VIVE OpenXR Unity passthrough 튜토리얼.
 - 즉 Blender = 필터 처리 도구로 공식화. 박사님 지적: 첫 프레임 기준 log map은 180° 근처 랩/쿼터니언 반구 뒤집힘 주의, 구매 아바타면 강도 측정은 최종 아바타 기준, FBX 왕복 설정(leaf bone 끔, 스케일) 주의, 3DGS는 10/8에 한번 배제됐던 안.
+
+**1주차 2번 완료 (2026-11-09):** 작업 폴더 `/Users/eugenesmac/Desktop/Personal Prj/Test/xr_filter_wk1/` (박사님 산출물 전용, 1107test.blend는 읽기만). extract_motion_json.py → mixamo_com_motion.json(65본×132f, quat_raw/continuous, 손목·머리·Hips 월드 m, Z-up), validate_motion_json.py, README.md. 테스트 클립 = 1107test.blend의 `mixamo.com` 액션(오른손 오버핸드 던지기, 60fps 확정, 2.2s → 선정 기준 5 미달, 테스트 전용). 놓는 순간 후보 53–54f(오른손목 11 m/s). 반구 반전 0, 정규화 오차 4e-8. 다음 = 3번 상체 13본 Wang 필터.

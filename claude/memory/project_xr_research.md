@@ -22,7 +22,8 @@ metadata:
 **How to apply:** 다음 세션은 Blender MCP 연결 확인(테스트 큐브) → 연구 주제·첫 프로토타입 정의부터. Unity는 Blender 작업이 끝나고 넘어갈 때 셋업.
 
 **호칭 (2026-11-09):** 제이드는 xr-researcher 에이전트를 **"박사님"**이라고 부름. ("xr 매니저"도 같은 에이전트)
-**기존 연구 자료:** 노션 DB https://perfect-menu-9e0.notion.site/3d184ffcd99880f786a4e685c6335177 (view 66c84ffcd9988389b0d4887dd3d8376b) — 제이드가 디벨롭해온 원본. **읽기 전용, 내용 절대 수정 금지.**
+**연구 자료 (최신, 읽기 전용·수정 절대 금지):** 제이드 개인 워크스페이스 Meeting log DB https://app.notion.com/p/4139bc7d8fb680039edcd63913288c07 (상위 "2026 Q3Q4"). 최종본 = "IRB 제출용 최종 피드백 전 정리" 4139bc7d8fb6804d82f2ed63c1859ff4 (10/28) + 1103 정기미팅. 10/28 이후가 최신. (perfect-menu-9e0.notion.site 공개링크·구 워크스페이스 사본은 Notion 연결로 안 열림/구버전)
+**HMD 확정:** HTC VIVE Focus Vision + 컨트롤러, 렌더링 PC 별도.
 
 **캐치업 결과 (2026-11-09, 박사님):**
 - 위 공개 사이트 링크는 Notion MCP로 접근 불가(404). 대신 연결된 워크스페이스의 "2026 Q3Q4" 페이지(id 3d59bc7d8fb680818d8de86a9d700545) 하위 연구 페이지들을 읽음 — 같은 자료로 추정, 제이드 확인 필요. 최신 편집 10/13.

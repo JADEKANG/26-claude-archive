@@ -45,3 +45,6 @@ metadata:
 - 즉 Blender = 필터 처리 도구로 공식화. 박사님 지적: 첫 프레임 기준 log map은 180° 근처 랩/쿼터니언 반구 뒤집힘 주의, 구매 아바타면 강도 측정은 최종 아바타 기준, FBX 왕복 설정(leaf bone 끔, 스케일) 주의, 3DGS는 10/8에 한번 배제됐던 안.
 
 **1주차 2번 완료 (2026-11-09):** 작업 폴더 `/Users/eugenesmac/Desktop/Personal Prj/Test/xr_filter_wk1/` (박사님 산출물 전용, 1107test.blend는 읽기만). extract_motion_json.py → mixamo_com_motion.json(65본×132f, quat_raw/continuous, 손목·머리·Hips 월드 m, Z-up), validate_motion_json.py, README.md. 테스트 클립 = 1107test.blend의 `mixamo.com` 액션(오른손 오버핸드 던지기, 60fps 확정, 2.2s → 선정 기준 5 미달, 테스트 전용). 놓는 순간 후보 53–54f(오른손목 11 m/s). 반구 반전 0, 정규화 오차 4e-8. 다음 = 3번 상체 13본 Wang 필터.
+
+**1주차 3번 완료 (2026-11-09, 백그라운드 Blender만 사용, 원본 blend md5 불변):** 폴더 before/ after/ scripts/로 정리. scripts/cartoon_filter.py(numpy: log/exp map, σ²LoG 커널 edge 패딩, f0→σ=√2/(2πf0), numpy FK(Blender 대비 오차 <1e-6m), 강도·이분탐색). f0 1.11Hz, σ 0.202s. 강 gain 1.672(29.9%), 약 0.781(14.9%). 사본 after/1107test_filtered.blend에 throw_weak/throw_strong. Unity = 6000 확정.
+- 핵심 발견: ① 놓는 '프레임'(속도 피크 53–54)은 유지되나 놓는 순간 오른손목 위치가 강 51cm/약 25cm 어긋나고 속도 11→15.8 m/s(최종본 3.4 "어긋남 없음" 가정과 충돌) ② 커널 ±49f가 대기 구간까지 번짐: f1에서 10cm, f15에서 30cm 오프셋 → 1.5초 대기 자세를 필터 '전에' 앞뒤로 붙여야 함 ③ 강도 %가 왼손목(비투척, 기준 변위 0.36m)에 지배됨(강: 왼 61%, 오른 16%, 머리 12%), 오른손목 %는 gain≈1.9 이후 감소(비단조) → 지표 재정의 필요 ④ 몸통: 가슴 기울기 차 최대 9.7°(f61), 척추 gain 0.5배면 6.6° ⑤ Head 본 회전 변화 40°, RightForeArm 61° → 관절 한계·자기 관통 검사 필요.

@@ -20,3 +20,6 @@ metadata:
 **Why:** 제이드는 XR/HCI 쪽 커리어를 지향 ([[user_career_background]]), DL&CV 수강과도 연결 ([[project_last_semester_course_choice]]).
 
 **How to apply:** 다음 세션은 Blender MCP 연결 확인(테스트 큐브) → 연구 주제·첫 프로토타입 정의부터. Unity는 Blender 작업이 끝나고 넘어갈 때 셋업.
+
+**호칭 (2026-11-09):** 제이드는 xr-researcher 에이전트를 **"박사님"**이라고 부름. ("xr 매니저"도 같은 에이전트)
+**기존 연구 자료:** 노션 DB https://perfect-menu-9e0.notion.site/3d184ffcd99880f786a4e685c6335177 (view 66c84ffcd9988389b0d4887dd3d8376b) — 제이드가 디벨롭해온 원본. **읽기 전용, 내용 절대 수정 금지.**

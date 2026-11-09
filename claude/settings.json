@@ -2,15 +2,7 @@
   "permissions": {
     "defaultMode": "bypassPermissions"
   },
-  "model": "sonnet",
-  "statusLine": {
-    "type": "command",
-    "command": "bash /Users/eugenesmac/.claude/statusline.sh"
-  },
-  "theme": "auto",
-  "skipDangerousModePermissionPrompt": true,
-  "voiceEnabled": true,
-  "tui": "fullscreen",
+  "model": "opus",
   "hooks": {
     "Stop": [
       {
@@ -22,5 +14,13 @@
         ]
       }
     ]
-  }
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/eugenesmac/.claude/statusline.sh"
+  },
+  "tui": "fullscreen",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "auto",
+  "voiceEnabled": true
 }

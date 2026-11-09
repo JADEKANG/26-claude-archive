@@ -23,7 +23,7 @@ metadata:
 
 **호칭 (2026-11-09):** 제이드는 xr-researcher 에이전트를 **"박사님"**이라고 부름. ("xr 매니저"도 같은 에이전트)
 **연구 자료 (최신, 읽기 전용·수정 절대 금지):** 제이드 개인 워크스페이스 Meeting log DB https://app.notion.com/p/4139bc7d8fb680039edcd63913288c07 (상위 "2026 Q3Q4"). 최종본 = "IRB 제출용 최종 피드백 전 정리" 4139bc7d8fb6804d82f2ed63c1859ff4 (10/28) + 1103 정기미팅. 10/28 이후가 최신. (perfect-menu-9e0.notion.site 공개링크·구 워크스페이스 사본은 Notion 연결로 안 열림/구버전)
-**HMD 확정:** HTC VIVE Focus Vision + 컨트롤러, 렌더링 PC 별도.
+**HMD 확정:** HTC VIVE Focus Vision + 컨트롤러, 렌더링 PC 별도. **Unity = 6000 확정 (2026-11-09).** 박사님 작업 산출물 폴더: ~/Desktop/Personal Prj/Test/xr_filter_wk1/ (1주차 2번 JSON 추출 완료, 3번 상체 Wang 필터 대기).
 
 **캐치업 결과 (2026-11-09, 박사님):**
 - 위 공개 사이트 링크는 Notion MCP로 접근 불가(404). 대신 연결된 워크스페이스의 "2026 Q3Q4" 페이지(id 3d59bc7d8fb680818d8de86a9d700545) 하위 연구 페이지들을 읽음 — 같은 자료로 추정, 제이드 확인 필요. 최신 편집 10/13.

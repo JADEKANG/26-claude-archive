@@ -42,6 +42,7 @@
 - [project_claude_account_migration.md](project_claude_account_migration.md) - JADEKANG 개인 계정+새 노트북(eugenesmac) 이전 — 2026-09-09 사실상 완료(jtech Gmail전환·백업자동화·퀴즈앱재배포·캘린더재설정 등), 남은 건 yjk repo 정리 정도
 - [project_last_semester_course_choice.md](project_last_semester_course_choice.md) - 마지막 학기 수강 결정 — XAI 대신 DL&CV 선택(XR/HCI 방향과 직결), XAI는 mech interp로 독학 예정
 - [project_c_programming_study.md](project_c_programming_study.md) - C 프로그래밍 수업 결석분 노션 자료 독학 복습 — bit/byte/hex 등 개념 단계 완료, Practice 실습은 아직
+- [project_xr_research.md](project_xr_research.md) - 개인 XR 연구 프로젝트(장기) — Blender MCP 셋업 완료→Unity 예정, 전담 에이전트 xr-researcher(XR 30년+애니메이터)
 
 ## Legacy EO (구메모리, project_american_dream_ip.md 등 최신 세트로 계승됐을 수 있음)
 - [user_company.md](user_company.md) — 유저는 EO(이오스튜디오) 소속 미디어 스타트업

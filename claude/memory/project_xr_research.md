@@ -1,6 +1,6 @@
 ---
 name: project_xr_research
-description: "제이드의 개인 XR 연구 프로젝트 — 장기 디벨롭 예정, Blender 먼저 → Unity. 전담 에이전트 xr-researcher(XR 30년+애니메이터 출신)"
+description: "제이드 XR 연구(학부 인턴, ISMAR 목표) — 세계 물리 규칙 × 애니메이션 과장 Plausibility. 박사님(xr-researcher)과 1주차 필터 파이프라인 진행 중, 진척은 작업폴더 PROGRESS.md"
 metadata:
   node_type: memory
   type: project
@@ -8,7 +8,7 @@ metadata:
   modified: 2026-11-09T01:47:55.080Z
 ---
 
-2026-11-09 시작. 제이드의 **개인 연구 프로젝트** (EO 업무와 별개). 앞으로 계속 디벨롭할 예정. 구체적인 연구 주제는 아직 정해지지 않음 — 다음 세션에서 먼저 확인할 것.
+2026-11-09 시작. 제이드의 **개인 연구 프로젝트** (EO 업무와 별개). 앞으로 계속 디벨롭할 예정. 주제는 확정(아래 캐치업 참조).
 
 **전담 에이전트:** `~/.claude/agents/xr-researcher.md` — XR 분야 30년 연구 경력의 연구자, 애니메이터 출신. 세션 전체를 이 페르소나로 하려면 `claude --agent xr-researcher`.
 
@@ -19,7 +19,7 @@ metadata:
 
 **Why:** 제이드는 XR/HCI 쪽 커리어를 지향 ([[user_career_background]]), DL&CV 수강과도 연결 ([[project_last_semester_course_choice]]).
 
-**How to apply:** 다음 세션은 Blender MCP 연결 확인(테스트 큐브) → 연구 주제·첫 프로토타입 정의부터. Unity는 Blender 작업이 끝나고 넘어갈 때 셋업.
+**How to apply:** 재개 시 `~/Desktop/Personal Prj/Test/xr_filter_wk1/PROGRESS.md`(로드맵·현재 위치·결정 대기)부터 읽고 박사님 호출. 노션 원본은 읽기 전용.
 
 **호칭 (2026-11-09):** 제이드는 xr-researcher 에이전트를 **"박사님"**이라고 부름. ("xr 매니저"도 같은 에이전트)
 **연구 자료 (최신, 읽기 전용·수정 절대 금지):** 제이드 개인 워크스페이스 Meeting log DB https://app.notion.com/p/4139bc7d8fb680039edcd63913288c07 (상위 "2026 Q3Q4"). 최종본 = "IRB 제출용 최종 피드백 전 정리" 4139bc7d8fb6804d82f2ed63c1859ff4 (10/28) + 1103 정기미팅. 10/28 이후가 최신. (perfect-menu-9e0.notion.site 공개링크·구 워크스페이스 사본은 Notion 연결로 안 열림/구버전)
@@ -48,3 +48,9 @@ metadata:
 
 **1주차 3번 완료 (2026-11-09, 백그라운드 Blender만 사용, 원본 blend md5 불변):** 폴더 before/ after/ scripts/로 정리. scripts/cartoon_filter.py(numpy: log/exp map, σ²LoG 커널 edge 패딩, f0→σ=√2/(2πf0), numpy FK(Blender 대비 오차 <1e-6m), 강도·이분탐색). f0 1.11Hz, σ 0.202s. 강 gain 1.672(29.9%), 약 0.781(14.9%). 사본 after/1107test_filtered.blend에 throw_weak/throw_strong. Unity = 6000 확정.
 - 핵심 발견: ① 놓는 '프레임'(속도 피크 53–54)은 유지되나 놓는 순간 오른손목 위치가 강 51cm/약 25cm 어긋나고 속도 11→15.8 m/s(최종본 3.4 "어긋남 없음" 가정과 충돌) ② 커널 ±49f가 대기 구간까지 번짐: f1에서 10cm, f15에서 30cm 오프셋 → 1.5초 대기 자세를 필터 '전에' 앞뒤로 붙여야 함 ③ 강도 %가 왼손목(비투척, 기준 변위 0.36m)에 지배됨(강: 왼 61%, 오른 16%, 머리 12%), 오른손목 %는 gain≈1.9 이후 감소(비단조) → 지표 재정의 필요 ④ 몸통: 가슴 기울기 차 최대 9.7°(f61), 척추 gain 0.5배면 6.6° ⑤ Head 본 회전 변화 40°, RightForeArm 61° → 관절 한계·자기 관통 검사 필요.
+
+**2026-11-09 세션 종료 시점 (저장):**
+- 비교 영상 after/video_side_by_side_1x.mp4 / _half.mp4 (강|약|원본, scripts/bg_render_video.py — Blender 5.x 영상은 image_settings.media_type="VIDEO" 먼저).
+- 원본 1107test.blend 수정시각 13:32로 바뀜 — 제이드가 Blender 종료 시 저장한 것으로 추정(박사님 작업은 md5 불변 확인). 라이브 Blender는 꺼져 있음, 백그라운드로 충분.
+- 결정 대기(교수님 안건 후보): ① 놓는 순간 상자 출발조건(받아들임/원본 고정/놓는 구간 gain 감쇠) ② 강도 지표 재정의(합산 비율/가중/절대 cm) ③ 대기 1.5초 필터 전 부착(박사님 권장) ④ Focus Vision 단독 vs PC 스트리밍 ⑤ 아바타·3DGS·장소 ⑥ IRB 제출일/보완 ⑦ 1027→1028 root 제외 의도.
+- 다음 진입점: 1주차 4번 = throw_strong FBX → Unity 6000 Humanoid 나란히 재생·녹화 (Unity 프로젝트 생성 + unity-mcp 셋업 필요).

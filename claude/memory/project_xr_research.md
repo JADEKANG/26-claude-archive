@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4cfd35a1-a2c5-4f81-ad55-ba30eb562da9
-  modified: 2026-11-10T01:37:39.365Z
+  modified: 2026-11-10T06:06:41.372Z
 ---
 
 2026-11-09 시작. 제이드의 **개인 연구 프로젝트** (EO 업무와 별개). 앞으로 계속 디벨롭할 예정. 주제는 확정(아래 캐치업 참조).
@@ -60,5 +60,8 @@ metadata:
 - Unity 6000 프로젝트 `~/Desktop/Personal Prj/Test/unity/XRFilterCompare/` (batchmode로 생성, Hub에는 아직 미등록). Editor 스크립트: MotionImport(Humanoid, root bake), BuildCompareScenes(메뉴 XR Filter), CaptureCompare. 씬 Compare_throwing/dropping (강|약|원본|MIXAMO RAW). 원본=RAW 포즈 일치로 왕복 검증.
 - 제이드 소감: 과장은 되는데 확 보이진 않음. Unity·Blender 포즈 차이는 프로그램 차이로 수용. 미팅 자료 `xr_filter_wk1/MEETING_1110.md` (오늘 미팅 논의용).
 - 제이드가 unity-mcp(CoplayDev) 연결함 → Claude 재시작.
-- **재시작 후 (2026-11-10) 완료:** Hub 등록(projects-v1.json 직접)·Hub로 열기, unity-mcp 연결, 녹화 완료 → `unity/XRFilterCompare/Captures/unity_compare_{dropping,throwing}_{1x,half}.mp4` (RecordCompare.cs 오프라인 60fps 렌더 + imageio-ffmpeg; 시스템 ffmpeg 없음). 1주차 4번 ✅.
+- **재시작 후 (2026-11-10):** Hub 등록(projects-v1.json 직접)·Hub로 열기, unity-mcp 연결 완료. Unity 오프라인 렌더(RecordCompare.cs)는 **팔 동작이 빠진 잘못된 영상** → 무효. 원인: 에디터에서 cam.Render() 연속 호출 시 스키닝 미갱신(MIXAMO RAW도 같이 빠져 왕복 검증으로 못 잡음). 교훈: 렌더 결과는 원본 데이터 수치(예: 손 높이)와 대조해 검증할 것. Unity 녹화는 제이드가 Play 모드로 직접.
+- **Blender 비교 영상 완료:** `scripts/bg_render_compare_video.py` → `motions/<동작>/after/<동작>_blender_compare_{1x,half}.mp4`. ffmpeg는 시스템에 없음(imageio-ffmpeg via uvx).
+- **노션 1110 정기미팅 정리 완료** (4139bc7d8fb6808ba895cc81881b89ec, 제이드 요청으로 작성 — 기존 연구 페이지는 여전히 읽기 전용): 절차·Graph Editor 보는 법·캡처·논의 0~3·아카이브. `.blend`는 노션 미지원 → zip. 제이드는 영상을 Google Drive "filter test" 폴더로 관리. 논의 0번 = Dropping은 숫자 기준 통과했지만 육안상 과장 약함(비율 지표 한계·느린 동작).
+- **다음 진입점:** 1110 미팅 피드백 반영 → 강도 지표 재정의/상자 출발 조건/대기 구간 결정, Unity Play 녹화(제이드), 필요 시 Blender 영상 Drive 업로드.
 - unity-mcp 주의: Unity 재시작 시 Claude Code의 UnityMCP 등록을 지움("Removing all UnityMCP registrations") → `claude mcp add --scope user --transport http UnityMCP http://127.0.0.1:8080/mcp`로 복구. 서버(8080)가 꺼져 있으면 ECONNREFUSED → MCP 창 Start Server 또는 `uvx --from mcpforunityserver==10.3.0 mcp-for-unity --transport http --http-url http://127.0.0.1:8080 --project-scoped-tools`. 세션 중 붙이면 `/mcp` Reconnect 필요. MCP 창의 Configure 버튼은 누르지 말 것.

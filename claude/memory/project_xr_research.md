@@ -54,3 +54,10 @@ metadata:
 - 원본 1107test.blend 수정시각 13:32로 바뀜 — 제이드가 Blender 종료 시 저장한 것으로 추정(박사님 작업은 md5 불변 확인). 라이브 Blender는 꺼져 있음, 백그라운드로 충분.
 - 결정 대기(교수님 안건 후보): ① 놓는 순간 상자 출발조건(받아들임/원본 고정/놓는 구간 gain 감쇠) ② 강도 지표 재정의(합산 비율/가중/절대 cm) ③ 대기 1.5초 필터 전 부착(박사님 권장) ④ Focus Vision 단독 vs PC 스트리밍 ⑤ 아바타·3DGS·장소 ⑥ IRB 제출일/보완 ⑦ 1027→1028 root 제외 의도.
 - 다음 진입점: 1주차 4번 = throw_strong FBX → Unity 6000 Humanoid 나란히 재생·녹화 (Unity 프로젝트 생성 + unity-mcp 셋업 필요).
+
+**2026-11-10 세션 (재시작 전 저장):**
+- 새 동작 5개(Box Idle, Throw Object, Push, Dropping, Throwing) `scripts/motion_pipeline.py`로 처리(라이브 Blender MCP, 동작당 `motions/<slug>/after/<slug>_compare.blend`). 선택 = Dropping + Throwing → Unity.
+- Unity 6000 프로젝트 `~/Desktop/Personal Prj/Test/unity/XRFilterCompare/` (batchmode로 생성, Hub에는 아직 미등록). Editor 스크립트: MotionImport(Humanoid, root bake), BuildCompareScenes(메뉴 XR Filter), CaptureCompare. 씬 Compare_throwing/dropping (강|약|원본|MIXAMO RAW). 원본=RAW 포즈 일치로 왕복 검증.
+- 제이드 소감: 과장은 되는데 확 보이진 않음. Unity·Blender 포즈 차이는 프로그램 차이로 수용. 미팅 자료 `xr_filter_wk1/MEETING_1110.md` (오늘 미팅 논의용).
+- 제이드가 unity-mcp(CoplayDev) 연결함 → Claude 재시작.
+- **재시작 후 할 일 (제이드 요청):** ① XRFilterCompare를 제이드 Unity Hub 프로젝트 목록에 등록하고 Hub로 열기 ② unity-mcp 도구 확인 ③ 비교 씬 영상 녹화(Unity Recorder 패키지 또는 프레임 캡처→mp4), 2개 씬 모두 ④ 영상 경로 알려주기.

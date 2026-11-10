@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4cfd35a1-a2c5-4f81-ad55-ba30eb562da9
-  modified: 2026-11-09T01:47:55.080Z
+  modified: 2026-11-10T01:37:39.365Z
 ---
 
 2026-11-09 시작. 제이드의 **개인 연구 프로젝트** (EO 업무와 별개). 앞으로 계속 디벨롭할 예정. 주제는 확정(아래 캐치업 참조).
@@ -60,4 +60,5 @@ metadata:
 - Unity 6000 프로젝트 `~/Desktop/Personal Prj/Test/unity/XRFilterCompare/` (batchmode로 생성, Hub에는 아직 미등록). Editor 스크립트: MotionImport(Humanoid, root bake), BuildCompareScenes(메뉴 XR Filter), CaptureCompare. 씬 Compare_throwing/dropping (강|약|원본|MIXAMO RAW). 원본=RAW 포즈 일치로 왕복 검증.
 - 제이드 소감: 과장은 되는데 확 보이진 않음. Unity·Blender 포즈 차이는 프로그램 차이로 수용. 미팅 자료 `xr_filter_wk1/MEETING_1110.md` (오늘 미팅 논의용).
 - 제이드가 unity-mcp(CoplayDev) 연결함 → Claude 재시작.
-- **재시작 후 할 일 (제이드 요청):** ① XRFilterCompare를 제이드 Unity Hub 프로젝트 목록에 등록하고 Hub로 열기 ② unity-mcp 도구 확인 ③ 비교 씬 영상 녹화(Unity Recorder 패키지 또는 프레임 캡처→mp4), 2개 씬 모두 ④ 영상 경로 알려주기.
+- **재시작 후 (2026-11-10) 완료:** Hub 등록(projects-v1.json 직접)·Hub로 열기, unity-mcp 연결, 녹화 완료 → `unity/XRFilterCompare/Captures/unity_compare_{dropping,throwing}_{1x,half}.mp4` (RecordCompare.cs 오프라인 60fps 렌더 + imageio-ffmpeg; 시스템 ffmpeg 없음). 1주차 4번 ✅.
+- unity-mcp 주의: Unity 재시작 시 Claude Code의 UnityMCP 등록을 지움("Removing all UnityMCP registrations") → `claude mcp add --scope user --transport http UnityMCP http://127.0.0.1:8080/mcp`로 복구. 서버(8080)가 꺼져 있으면 ECONNREFUSED → MCP 창 Start Server 또는 `uvx --from mcpforunityserver==10.3.0 mcp-for-unity --transport http --http-url http://127.0.0.1:8080 --project-scoped-tools`. 세션 중 붙이면 `/mcp` Reconnect 필요. MCP 창의 Configure 버튼은 누르지 말 것.

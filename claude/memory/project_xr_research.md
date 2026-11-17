@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 4cfd35a1-a2c5-4f81-ad55-ba30eb562da9
-  modified: 2026-11-10T06:06:41.372Z
+  modified: 2026-11-17T08:00:00.000Z
 ---
 
 2026-11-09 시작. 제이드의 **개인 연구 프로젝트** (EO 업무와 별개). 앞으로 계속 디벨롭할 예정. 주제는 확정(아래 캐치업 참조).
@@ -80,3 +80,10 @@ metadata:
 - 놓는 프레임: Throwing EYE 122f, 상자 해제는 규칙 108f(속도 피크 후 50% 이하 첫 프레임) + 속도 = 원본 방향×원본 속도×경로비율(≈1+강도). 제이드는 "눈대중보다 계산 근거" 선호.
 - 일괄 파이프라인(run_batch/bg_batch_extract 재귀+manifest/rank_candidates), Mixamo 127개 순위(Dropping 45위). Unity Play 자동 녹화(PlayRecorder, RECORD_ON 플래그) — Unity 창이 뒤면 멈추므로 runInBackground 필요. Blender 씬 음수 프레임 불가 → FBX 내보낼 때 키 +90 이동.
 - 협업 방식: 큰 단계마다 Blender/Unity 체크포인트(CP)로 제이드가 눈으로 확인 → 피드백. Blender는 버전마다 컬렉션으로 묶어야 눈 아이콘으로 토글됨(아마추어 눈만 끄면 메시 남음). 노션엔 "시도→문제→수정" 과정이 보이게.
+
+**2026-11-17 오전 (1117 미팅 직전 마무리, 세션 종료):**
+- 후보 선정: CP2 v1(상위15+하위2)은 실패 — 카테고리 이름 기준·반경 1m 때문에 중복·놓는 순간 없는 동작이 섞임. CP2 v2 = "물체가 손을 떠나는가"로 30개 직접 선정 + 자동 경고(SEATED/MULTI/SHORT/LONG/RAD>2m/FAM), `scripts/cp2v2_list.py`·`bg_build_cp2v2.py` → `wk2/checkpoints/CP2v2_candidates.blend`. 결정 기록 `wk2/ranking/cp2v2_selection.csv`. **최종 12개 확정**(던지기 7: throwing·throw_in·baseball_pitching c9cbdd1a·frisbee_throw·goalkeeper_pass·football_hike·dribble / 내려놓기·쏟기·옮겨놓기 3 / 받기 2). 예비: push_start, pull_heavy_object(+시작·멈춤 블렌딩), baseball_catcher(되던지기만 자르기). 제외 클립은 삭제 말고 아카이빙(숨김 컬렉션).
+- 눈 확인: 약·g3·g3.7 모두 팔 몸 관통 없음. g3.7은 오버슈트가 더 보일 뿐.
+- 노션 1117 페이지 교수님 공유용으로 완성(요약 표, 섹션별 왜/한 것/해석, 논의 1~10 태그, 다음 주 계획 1~5). 자료 링크 callout = Drive 공유 폴더(13z21YpwtPIyG-7kKbJn4kco_BL6tpoa0, 영상+zip 7개, 제이드가 직접 업로드) + 노션 첨부 3_scripts_results.zip. zip 원본 `~/Desktop/xr_research_1117_zip/`.
+- 업로드 한도: 노션 파일당 5MiB, Drive MCP create_file 10MB → 큰 파일은 제이드가 수동 업로드. 메일 발송 도구 없음(Mail.app 계정 미설정).
+- **다음 진입점:** 1117 교수님 피드백 반영 → 12개 놓는 프레임 계산(50% 규칙) → 12개 필터 적용·강도 표 → throw_in 이동 고정·wheelbarrow 자르기·받기 놓는 순간 정의 → Unity 12개 배치 → 파일럿 3~4명.

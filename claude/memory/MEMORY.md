@@ -24,6 +24,7 @@
 - [feedback_notion_quality.md](feedback_notion_quality.md) - 노션 페이지 산출물은 초안 바로 올리지 말고 2차 검토 거쳐 최고 퀄리티로 업로드
 - [feedback_labeling_style.md](feedback_labeling_style.md) - 아드 라벨링 문체=제이드 관찰노트 톤(짧게·실명·무태그), 새 팀 시작 전 수기 정량대조 먼저
 - [feedback_session_wrap_retrospective.md](feedback_session_wrap_retrospective.md) - 세션 마무리마다(요청 없어도) 짧은 회고+소통 효율화 제안을 자동으로 덧붙일 것 (2026-09-09 요청)
+- [feedback_xr_tool_workflow.md](feedback_xr_tool_workflow.md) - XR 연구: Blender/Unity는 앱 열어서 실행, 테스트는 여러 케이스 만들어 제이드가 픽
 
 ## Project
 - [project_ttm_ip.md](project_ttm_ip.md) - EO The Thinking Mode IP 작업 현황 및 다음 세션 이어갈 것들

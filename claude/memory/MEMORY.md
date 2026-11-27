@@ -43,7 +43,7 @@
 - [project_claude_account_migration.md](project_claude_account_migration.md) - JADEKANG 개인 계정+새 노트북(eugenesmac) 이전 — 2026-09-09 사실상 완료(jtech Gmail전환·백업자동화·퀴즈앱재배포·캘린더재설정 등), 남은 건 yjk repo 정리 정도
 - [project_last_semester_course_choice.md](project_last_semester_course_choice.md) - 마지막 학기 수강 결정 — XAI 대신 DL&CV 선택(XR/HCI 방향과 직결), XAI는 mech interp로 독학 예정
 - [project_c_programming_study.md](project_c_programming_study.md) - C 프로그래밍 수업 결석분 노션 자료 독학 복습 — bit/byte/hex 등 개념 단계 완료, Practice 실습은 아직
-- [project_xr_research.md](project_xr_research.md) - 제이드 XR 연구(ISMAR, 물리규칙×애니 과장 Plausibility) — 1117 미팅 자료 완성: 필터 v2 B(약 g1.5/강 g3·g3.7), 후보 12개 확정, Unity 상자 108f. 다음=1117 피드백 반영→12개 적용. 재개 시 PROGRESS.md 먼저
+- [project_xr_research.md](project_xr_research.md) - 제이드 XR 연구(ISMAR, 물리규칙×애니 과장 Plausibility) — Throwing C7 확정, 1127 미팅: 공식 고정한 채 범용 파이프라인→12개 동작 전부 적용해 12/1(화 10:45 대면)에 영상 나열. IRB 12월 심사. 재개 시 PROGRESS.md 먼저
 
 ## Legacy EO (구메모리, project_american_dream_ip.md 등 최신 세트로 계승됐을 수 있음)
 - [user_company.md](user_company.md) — 유저는 EO(이오스튜디오) 소속 미디어 스타트업
